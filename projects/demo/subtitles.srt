@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:08,400
+¿Candado significa confianza?
+Una web fraudulenta también puede tener HTTPS.
+
+2
+00:00:08,400 --> 00:00:16,900
+HTTPS cifra la conexión.
+No garantiza que quien recibe tus datos sea confiable.
+
+3
+00:00:16,900 --> 00:00:24,200
+Mira el dominio completo.
+Un nombre parecido puede llevarte a otro sitio.
+
+4
+00:00:24,200 --> 00:00:32,299
+Entra por tu cuenta.
+Ante un enlace inesperado, abre la app o el sitio oficial.

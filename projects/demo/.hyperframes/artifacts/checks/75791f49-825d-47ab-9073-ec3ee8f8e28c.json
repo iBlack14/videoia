@@ -1,0 +1,786 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 5
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 16,
+    "infoCount": 0,
+    "findings": [
+      {
+        "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 112,
+          "y": 440,
+          "width": 239.09,
+          "height": 31
+        },
+        "time": 0.889,
+        "rect": {
+          "left": 112,
+          "top": 440,
+          "right": 351.09,
+          "bottom": 471,
+          "width": 239.09,
+          "height": 31
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "VIDEOIA / 01",
+        "message": "<div> \"VIDEOIA / 01\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 0.889,
+        "lastSeen": 2.667,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          0.889,
+          2.667
+        ]
+      },
+      {
+        "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > h1:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 112,
+          "y": 544,
+          "width": 823.97,
+          "height": 229
+        },
+        "time": 0.889,
+        "rect": {
+          "left": 112,
+          "top": 544,
+          "right": 935.97,
+          "bottom": 773,
+          "width": 823.97,
+          "height": 229
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Todo empieza con una idea.",
+        "message": "<h1> \"Todo empieza con una idea.\" is outside the safe area: TikTok (left edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 0.889,
+        "lastSeen": 2.667,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          0.889,
+          2.667
+        ]
+      },
+      {
+        "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 112,
+          "y": 898,
+          "width": 608.17,
+          "height": 49
+        },
+        "time": 0.889,
+        "rect": {
+          "left": 112,
+          "top": 898,
+          "right": 720.17,
+          "bottom": 947,
+          "width": 608.17,
+          "height": 49
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Escribe algo que quieras contar.",
+        "message": "<p> \"Escribe algo que quieras contar.\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 0.889,
+        "lastSeen": 2.667,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          0.889,
+          2.667
+        ]
+      },
+      {
+        "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 112,
+          "y": 1240,
+          "width": 435.33,
+          "height": 34
+        },
+        "time": 0.889,
+        "rect": {
+          "left": 112,
+          "top": 1240,
+          "right": 547.33,
+          "bottom": 1274,
+          "width": 435.33,
+          "height": 34
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "IDEA → HISTORIA → VIDEO",
+        "message": "<div> \"IDEA → HISTORIA → VIDEO\" is outside the safe area: TikTok (left and bottom edges), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 0.889,
+        "lastSeen": 2.667,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          0.889,
+          2.667
+        ]
+      },
+      {
+        "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 112,
+          "y": 440.43,
+          "width": 244.38,
+          "height": 31
+        },
+        "time": 4.444,
+        "rect": {
+          "left": 112,
+          "top": 440.43,
+          "right": 356.38,
+          "bottom": 471.43,
+          "width": 244.38,
+          "height": 31
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "VIDEOIA / 02",
+        "message": "<div> \"VIDEOIA / 02\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 4.444,
+        "lastSeen": 6.222,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          4.444,
+          6.222
+        ]
+      },
+      {
+        "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > h1:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 112,
+          "y": 544.43,
+          "width": 604.44,
+          "height": 121
+        },
+        "time": 4.444,
+        "rect": {
+          "left": 112,
+          "top": 544.43,
+          "right": 716.44,
+          "bottom": 665.43,
+          "width": 604.44,
+          "height": 121
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Dale una voz.",
+        "message": "<h1> \"Dale una voz.\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 4.444,
+        "lastSeen": 6.222,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          4.444,
+          6.222
+        ]
+      },
+      {
+        "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 112,
+          "y": 790.43,
+          "width": 763.67,
+          "height": 49
+        },
+        "time": 4.444,
+        "rect": {
+          "left": 112,
+          "top": 790.43,
+          "right": 875.67,
+          "bottom": 839.43,
+          "width": 763.67,
+          "height": 49
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Un guion claro. Una historia que avanza.",
+        "message": "<p> \"Un guion claro. Una historia que avanza.\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 4.444,
+        "lastSeen": 6.222,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          4.444,
+          6.222
+        ]
+      },
+      {
+        "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 112,
+          "y": 1240,
+          "width": 435.33,
+          "height": 34
+        },
+        "time": 4.444,
+        "rect": {
+          "left": 112,
+          "top": 1240,
+          "right": 547.33,
+          "bottom": 1274,
+          "width": 435.33,
+          "height": 34
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "IDEA → HISTORIA → VIDEO",
+        "message": "<div> \"IDEA → HISTORIA → VIDEO\" is outside the safe area: TikTok (left and bottom edges), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 4.444,
+        "lastSeen": 6.222,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          4.444,
+          6.222
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 112,
+          "y": 475,
+          "width": 244.58,
+          "height": 31
+        },
+        "time": 8,
+        "rect": {
+          "left": 112,
+          "top": 475,
+          "right": 356.58,
+          "bottom": 506,
+          "width": 244.58,
+          "height": 31
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "VIDEOIA / 03",
+        "message": "<div> \"VIDEOIA / 03\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 8,
+        "lastSeen": 11.556,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          8,
+          9.778,
+          11.556
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > h1:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 112,
+          "y": 579,
+          "width": 708.11,
+          "height": 121
+        },
+        "time": 8,
+        "rect": {
+          "left": 112,
+          "top": 579,
+          "right": 820.11,
+          "bottom": 700,
+          "width": 708.11,
+          "height": 121
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Haz que se vea.",
+        "message": "<h1> \"Haz que se vea.\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 8,
+        "lastSeen": 11.556,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          8,
+          9.778,
+          11.556
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 112,
+          "y": 825,
+          "width": 640.14,
+          "height": 49
+        },
+        "time": 8,
+        "rect": {
+          "left": 112,
+          "top": 825,
+          "right": 752.14,
+          "bottom": 874,
+          "width": 640.14,
+          "height": 49
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Escenas, movimiento y subtítulos.",
+        "message": "<p> \"Escenas, movimiento y subtítulos.\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 8,
+        "lastSeen": 11.556,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          8,
+          9.778,
+          11.556
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 112,
+          "y": 1240,
+          "width": 435.33,
+          "height": 34
+        },
+        "time": 8,
+        "rect": {
+          "left": 112,
+          "top": 1240,
+          "right": 547.33,
+          "bottom": 1274,
+          "width": 435.33,
+          "height": 34
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "IDEA → HISTORIA → VIDEO",
+        "message": "<div> \"IDEA → HISTORIA → VIDEO\" is outside the safe area: TikTok (left and bottom edges), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 8,
+        "lastSeen": 11.556,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          8,
+          9.778,
+          11.556
+        ]
+      },
+      {
+        "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 112,
+          "y": 440,
+          "width": 245.31,
+          "height": 31
+        },
+        "time": 13.333,
+        "rect": {
+          "left": 112,
+          "top": 440,
+          "right": 357.31,
+          "bottom": 471,
+          "width": 245.31,
+          "height": 31
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "VIDEOIA / 04",
+        "message": "<div> \"VIDEOIA / 04\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 13.333,
+        "lastSeen": 15.111,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          13.333,
+          15.111
+        ]
+      },
+      {
+        "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > h1:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 112,
+          "y": 544,
+          "width": 753.31,
+          "height": 337
+        },
+        "time": 13.333,
+        "rect": {
+          "left": 112,
+          "top": 544,
+          "right": 865.31,
+          "bottom": 881,
+          "width": 753.31,
+          "height": 337
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Tu próxima historia empieza aquí.",
+        "message": "<h1> \"Tu próxima historia empieza aquí.\" is outside the safe area: TikTok (left and right edges).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 13.333,
+        "lastSeen": 15.111,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          13.333,
+          15.111
+        ]
+      },
+      {
+        "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 112,
+          "y": 1006,
+          "width": 509.59,
+          "height": 49
+        },
+        "time": 13.333,
+        "rect": {
+          "left": 112,
+          "top": 1006,
+          "right": 621.59,
+          "bottom": 1055,
+          "width": 509.59,
+          "height": 49
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "VIDEOIA · Producción local",
+        "message": "<p> \"VIDEOIA · Producción local\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 13.333,
+        "lastSeen": 15.111,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          13.333,
+          15.111
+        ]
+      },
+      {
+        "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 112,
+          "y": 1240,
+          "width": 435.33,
+          "height": 34
+        },
+        "time": 13.333,
+        "rect": {
+          "left": 112,
+          "top": 1240,
+          "right": 547.33,
+          "bottom": 1274,
+          "width": 435.33,
+          "height": 34
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "IDEA → HISTORIA → VIDEO",
+        "message": "<div> \"IDEA → HISTORIA → VIDEO\" is outside the safe area: TikTok (left and bottom edges), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 13.333,
+        "lastSeen": 15.111,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          13.333,
+          15.111
+        ]
+      }
+    ],
+    "duration": 16,
+    "samples": [
+      0.889,
+      2.667,
+      4.444,
+      6.222,
+      8,
+      9.778,
+      11.556,
+      13.333,
+      15.111
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 16,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      0.889,
+      4.444,
+      8,
+      11.556,
+      15.111
+    ],
+    "checked": 20,
+    "passed": 20
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 5,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and \"VIDEOIA / 01\" renders at 26 px for 3.88 s: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "VIDEOIA / 01",
+        "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 112,
+          "y": 475,
+          "width": 239.09,
+          "height": 31
+        },
+        "time": 0,
+        "times": [
+          0
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 3.875,
+        "elements": [
+          {
+            "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+            "text": "VIDEOIA / 01",
+            "fontPx": 26,
+            "time": 0,
+            "seconds": 3.875
+          }
+        ]
+      },
+      {
+        "code": "film_silent",
+        "severity": "warning",
+        "message": "This 16 s film has no sound source (no <audio>, no <video> with sound): add a music bed and sounds on the visible actions unless the person asked for silence; see references/sound.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and \"VIDEOIA / 02\" renders at 26 px for 3.88 s: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "VIDEOIA / 02",
+        "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 112,
+          "y": 475,
+          "width": 244.38,
+          "height": 31
+        },
+        "time": 4,
+        "times": [
+          4
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 3.875,
+        "elements": [
+          {
+            "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+            "text": "VIDEOIA / 02",
+            "fontPx": 26,
+            "time": 4,
+            "seconds": 3.875
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and \"VIDEOIA / 03\" renders at 26 px for 3.88 s: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "VIDEOIA / 03",
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 112,
+          "y": 475,
+          "width": 244.58,
+          "height": 31
+        },
+        "time": 8,
+        "times": [
+          8
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 3.875,
+        "elements": [
+          {
+            "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+            "text": "VIDEOIA / 03",
+            "fontPx": 26,
+            "time": 8,
+            "seconds": 3.875
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and \"VIDEOIA / 04\" renders at 26 px for 3.88 s: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "VIDEOIA / 04",
+        "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 112,
+          "y": 475,
+          "width": 245.31,
+          "height": 31
+        },
+        "time": 12,
+        "times": [
+          12
+        ],
+        "fontPx": 26,
+        "floorPx": 28,
+        "seconds": 3.875,
+        "elements": [
+          {
+            "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+            "text": "VIDEOIA / 04",
+            "fontPx": 26,
+            "time": 12,
+            "seconds": 3.875
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 128
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 1,
+    "findings": [
+      {
+        "code": "audio_none",
+        "severity": "info",
+        "message": "The film has no sound: no clip in it plays audio.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0
+      }
+    ]
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

@@ -1,0 +1,61 @@
+
+> videoia-local@0.1.0 hf
+> node scripts/hf.mjs snapshot projects/realista --at 3,10,17,23 --output output/realista-frames --json
+
+◆  Capturing 4 frames at [3s, 10s, 17s, 23s] from realista
+[INFO] [Compiler] Fetched 11 font face(s) for "Inter" from Google Fonts (cached to C:\Users\huanc\.cache\hyperframes\fonts\inter)
+[INFO] [Compiler] Injected deterministic @font-face rules for 1 requested font families
+[hyperframes] browserGpuMode probe → hardware (WebGL renderer vendor="Google Inc. (Intel)" renderer="ANGLE (Intel, Intel(R) Iris(R) Plus Graphics (0x00008A52) Direct3D11 vs_5_0 ps_5_0, D3D11)")
+
+   Fonts: 8 loaded
+   Note: added an end-of-timeline frame at 25.75s. Short beats between your --at times may still be skipped — pass them explicitly.
+[hyperframes] snapshot: frame 1/5 at 3s
+[hyperframes] snapshot: frame 2/5 at 10s
+[hyperframes] snapshot: frame 3/5 at 17s
+[hyperframes] snapshot: frame 4/5 at 23s
+[hyperframes] snapshot: frame 5/5 at 25.75s
+   Revision: none (unversioned)
+   State: C:\Users\huanc\Downloads\videoia\projects\realista\.hyperframes\video-state.json
+
+◇  5 snapshots saved to C:\Users\huanc\Downloads\videoia\output\realista-frames
+   C:\Users\huanc\Downloads\videoia\output\realista-frames\frame-00-at-3s.png
+   C:\Users\huanc\Downloads\videoia\output\realista-frames\frame-01-at-10s.png
+   C:\Users\huanc\Downloads\videoia\output\realista-frames\frame-02-at-17s.png
+   C:\Users\huanc\Downloads\videoia\output\realista-frames\frame-03-at-23s.png
+   C:\Users\huanc\Downloads\videoia\output\realista-frames\frame-04-at-25.75s.png
+   C:\Users\huanc\Downloads\videoia\output\realista-frames\contact-sheet.jpg (grid view for AI review)
+{
+  "ok": true,
+  "outputDir": "C:\\Users\\huanc\\Downloads\\videoia\\output\\realista-frames",
+  "frames": [
+    {
+      "path": "C:\\Users\\huanc\\Downloads\\videoia\\output\\realista-frames\\frame-00-at-3s.png",
+      "time": 3
+    },
+    {
+      "path": "C:\\Users\\huanc\\Downloads\\videoia\\output\\realista-frames\\frame-01-at-10s.png",
+      "time": 10
+    },
+    {
+      "path": "C:\\Users\\huanc\\Downloads\\videoia\\output\\realista-frames\\frame-02-at-17s.png",
+      "time": 17
+    },
+    {
+      "path": "C:\\Users\\huanc\\Downloads\\videoia\\output\\realista-frames\\frame-03-at-23s.png",
+      "time": 23
+    },
+    {
+      "path": "C:\\Users\\huanc\\Downloads\\videoia\\output\\realista-frames\\frame-04-at-25.75s.png",
+      "time": 25.75
+    }
+  ],
+  "contactSheets": [
+    "C:\\Users\\huanc\\Downloads\\videoia\\output\\realista-frames\\contact-sheet.jpg"
+  ],
+  "_meta": {
+    "version": "0.9.56",
+    "updateAvailable": false,
+    "skillsOutdated": 2,
+    "skillsMissing": 2
+  }
+}

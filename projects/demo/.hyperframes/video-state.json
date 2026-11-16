@@ -1,0 +1,976 @@
+{
+  "version": 1,
+  "historyId": "099a5f51-337d-458f-b37e-60250103427f",
+  "currentRevision": "99e0a1b2-2691-4430-9d48-2ac4554a09a3",
+  "pendingChanges": false,
+  "files": {
+    "assets/gsap.min.js": {
+      "hash": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+      "content": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\92\\92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb"
+    },
+    "compositions/scene1.html": {
+      "hash": "df1feb3b372fa865b2a86018ba74297bde605f6d3f25906a29fd0bb1fd8774af",
+      "content": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\df\\df1feb3b372fa865b2a86018ba74297bde605f6d3f25906a29fd0bb1fd8774af"
+    },
+    "compositions/scene2.html": {
+      "hash": "fc49f9fde8875b589a1045b4acf7d6ac633042dc7be8f0abb4b445245b3b909b",
+      "content": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\fc\\fc49f9fde8875b589a1045b4acf7d6ac633042dc7be8f0abb4b445245b3b909b"
+    },
+    "compositions/scene3.html": {
+      "hash": "93743fd12b5d3a1f1503714a2a40060c048e641fedad8907b7de828d63090128",
+      "content": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\93\\93743fd12b5d3a1f1503714a2a40060c048e641fedad8907b7de828d63090128"
+    },
+    "compositions/scene4.html": {
+      "hash": "06d9c2c1213427a349e2c96dc951bdd424a6fcbe08fdcad602a6cd3724c94647",
+      "content": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\06\\06d9c2c1213427a349e2c96dc951bdd424a6fcbe08fdcad602a6cd3724c94647"
+    },
+    "index.html": {
+      "hash": "f03f6b8f3b3d959417bb8e59d3b8a2b75c8721a33d72a1bab0a7b799e53aa5de",
+      "content": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\f0\\f03f6b8f3b3d959417bb8e59d3b8a2b75c8721a33d72a1bab0a7b799e53aa5de"
+    },
+    "metadata.json": {
+      "hash": "9cc7e301369c2ffa5f907b27d84fba047dce70c82efd35fa9183235470e324c4",
+      "content": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\9c\\9cc7e301369c2ffa5f907b27d84fba047dce70c82efd35fa9183235470e324c4"
+    },
+    "subtitles.srt": {
+      "hash": "546428427feffee7ebdf9ca9477f0162b4042c7d07fb49662b96723fa25ca7af",
+      "content": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\54\\546428427feffee7ebdf9ca9477f0162b4042c7d07fb49662b96723fa25ca7af"
+    },
+    "assets/voice1.wav": {
+      "hash": "78f121b97f45553e04effe64a6ea4c756254516536a55779ede43cd06571c2b1",
+      "content": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\78\\78f121b97f45553e04effe64a6ea4c756254516536a55779ede43cd06571c2b1"
+    },
+    "assets/voice2.wav": {
+      "hash": "fc90c55b5bf4276265ebe95f59975435e0835c92f620e647754f6e86a2b535fd",
+      "content": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\fc\\fc90c55b5bf4276265ebe95f59975435e0835c92f620e647754f6e86a2b535fd"
+    },
+    "assets/voice3.wav": {
+      "hash": "b58740f98fde25d36662747fefcb6bde8a9a7a11263be9433a81e4ac78122de7",
+      "content": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\b5\\b58740f98fde25d36662747fefcb6bde8a9a7a11263be9433a81e4ac78122de7"
+    },
+    "assets/voice4.wav": {
+      "hash": "677a880782f66867ec0e58fe6ba4fdbc99e73a5626b01135f4f864d04392dbc3",
+      "content": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\67\\677a880782f66867ec0e58fe6ba4fdbc99e73a5626b01135f4f864d04392dbc3"
+    },
+    "SOURCES.md": {
+      "hash": "c88e66c91f53f4cf45699526f1fd8be55535e99f72a4d3fd5bf17b3f08c69513",
+      "content": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\c8\\c88e66c91f53f4cf45699526f1fd8be55535e99f72a4d3fd5bf17b3f08c69513"
+    },
+    "REVIEW.md": {
+      "hash": "14af9a2f187550dc55d959b3b524a577b062088b4540cba965e8c4a7f3dedf13",
+      "content": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\14\\14af9a2f187550dc55d959b3b524a577b062088b4540cba965e8c4a7f3dedf13"
+    },
+    "assets/voice1-alex.mp3": {
+      "hash": "057c66ba14e65e44cb77185b2574b7899f5a382ae5515e5e2ae48e4bb3151772",
+      "content": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\05\\057c66ba14e65e44cb77185b2574b7899f5a382ae5515e5e2ae48e4bb3151772"
+    },
+    "assets/voice2-alex.mp3": {
+      "hash": "2cdc567d5b0c257b465337a9b284b887356f35b31fe1cc8de9e1a7af6cb76a9d",
+      "content": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\2c\\2cdc567d5b0c257b465337a9b284b887356f35b31fe1cc8de9e1a7af6cb76a9d"
+    },
+    "assets/voice3-alex.mp3": {
+      "hash": "95e9f3ee4e39a8c577799d2001d7a40c822d57cb92d55e39e753a3171b7c9a95",
+      "content": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\95\\95e9f3ee4e39a8c577799d2001d7a40c822d57cb92d55e39e753a3171b7c9a95"
+    },
+    "assets/voice4-alex.mp3": {
+      "hash": "16eea895121894b9ef715919f7c5257ded626a6f956d08538fdfe60196fb8f97",
+      "content": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\16\\16eea895121894b9ef715919f7c5257ded626a6f956d08538fdfe60196fb8f97"
+    },
+    "assets/voice-provider.json": {
+      "hash": "321d39a01563a2092b896d8bf1070d3e141333746e9d0667b4bb9ec17cf55c9a",
+      "content": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\32\\321d39a01563a2092b896d8bf1070d3e141333746e9d0667b4bb9ec17cf55c9a"
+    }
+  },
+  "revisions": {
+    "9ee9db16-21c5-4191-9d6c-3fcdd5780576": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794810486472,
+      "endedAt": 1794810486539,
+      "files": {
+        "assets/voice1.wav": {
+          "before": null,
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\9a\\9a66305552a7bd5b4029a78fc6fe903a314493983edcbefdc62eaa6dc6233cf9"
+        },
+        "assets/voice2.wav": {
+          "before": null,
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\da\\dac247a3afade1cc238254f1f0af7d7f4f54ccf3f705df7e2af0e8eefaae07e5"
+        },
+        "assets/voice3.wav": {
+          "before": null,
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\53\\5391762014487084f94e2ad24757b413a192af615f618a24f3dee2f1bcf45e77"
+        },
+        "assets/voice4.wav": {
+          "before": null,
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\b6\\b6eb063c439b2eddd4e6c8a23bf997b52d9115891e057b218ff2bd375280bc9e"
+        },
+        "compositions/scene1.html": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\91\\917a336b68a9ef488c60488c384d182198823975884542d44ab837afab7c8222",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\d5\\d554b30f7396be05d61a7cd0505cb3d23ff9d39f3b60ef66bbdbb72ee47d3b97"
+        },
+        "compositions/scene2.html": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\b9\\b9743c21a56066c9efb080bc2fe8de5e2ed6c8b51b0dab1ff6dc6010ad1da82d",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\57\\57b73a7244f0a6db462b73bc87feea65233a2f0052bd4bd836a0c85183a42d3c"
+        },
+        "compositions/scene3.html": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\03\\0375a2d59d76ec35890080efa267238e2b484b374181cdd6649d59b95049cafc",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\67\\6750398e7dd7daac58db55b62b7724d121ee1beb7f80a05455203ac0b3e778bf"
+        },
+        "compositions/scene4.html": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\51\\518850d85c1a898cb1a4464a98a4e625cb61a39e1173c6c804a603b84bc75803",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\0a\\0a7d4f0a1a37fdb517ed8af38fdb269c9af1751a3e42645a672047cf3f97cd61"
+        },
+        "index.html": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\71\\7123e5bd3ae9149491bb55a696e610e659e96463962110d24828e6e7782cf60f",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\7d\\7d9f55e7d2a56028e30f57832c48d036964ce2e5864e7c3d261f47f17000137b"
+        },
+        "metadata.json": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\6a\\6a71b3e87e20046a4bc09376db102d8d96df7ec7eb2ebc85c164fe57cc00ff71",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\af\\af16a2d3de1ed6decfceb5a32d9c751b631553aa7f8afeaf638390905ec5e107"
+        },
+        "subtitles.srt": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\cd\\cda2ab7c9545c4000d62a35e32163baa61d83908bb7e5ff819da0c7a80c024d4",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\87\\876c1b2a7da594b32f09dd7ff30f4f763c05d63b56604c9e0292f752eb0feaf2"
+        }
+      }
+    },
+    "1ef1a2ea-df78-4e5b-8eae-92ebc0eef6cd": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794810781809,
+      "endedAt": 1794810781872,
+      "files": {
+        "compositions/scene1.html": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\d5\\d554b30f7396be05d61a7cd0505cb3d23ff9d39f3b60ef66bbdbb72ee47d3b97",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\8c\\8cded1f22e99d50b03cab9e1647fdef4a29754b0ef34a7fe6fc60e5b1961a182"
+        },
+        "compositions/scene2.html": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\57\\57b73a7244f0a6db462b73bc87feea65233a2f0052bd4bd836a0c85183a42d3c",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\86\\86b8528c6b2af3dbdadb066ddef519d2e68326e0862fa491316bca66f4ce2646"
+        },
+        "compositions/scene3.html": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\67\\6750398e7dd7daac58db55b62b7724d121ee1beb7f80a05455203ac0b3e778bf",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\3b\\3b504eb8711e35157d90969108c6bdb6fb136d6982957f800ea090e8d14e29f6"
+        },
+        "compositions/scene4.html": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\0a\\0a7d4f0a1a37fdb517ed8af38fdb269c9af1751a3e42645a672047cf3f97cd61",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\1b\\1bc7ba7a152fd6a85181df35b06cb95749665b4baab0c2749c5d6399e97fb146"
+        },
+        "index.html": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\7d\\7d9f55e7d2a56028e30f57832c48d036964ce2e5864e7c3d261f47f17000137b",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\ac\\ac5d838bf307068dcbd1c27fe77e2919c9007dbafbde077e3359b036b7517204"
+        },
+        "SOURCES.md": {
+          "before": null,
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\c8\\c88e66c91f53f4cf45699526f1fd8be55535e99f72a4d3fd5bf17b3f08c69513"
+        }
+      }
+    },
+    "f26ecfa4-db2c-46ae-ac25-9417ec275d59": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794811098458,
+      "endedAt": 1794811100463,
+      "files": {
+        "REVIEW.md": {
+          "before": null,
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\d0\\d0e1948591d98e0e69a47f27e013a0e24ffd546ce1231b59b158feaf3dac531b"
+        }
+      }
+    },
+    "d8eb76b1-b245-40d6-8108-8aab2828c742": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794811188865,
+      "endedAt": 1794811190866,
+      "files": {
+        "REVIEW.md": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\d0\\d0e1948591d98e0e69a47f27e013a0e24ffd546ce1231b59b158feaf3dac531b",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\ba\\ba98ff7dd69d6733ebd552029efe4344a4a295199fed1416f560efb75146bbed"
+        }
+      }
+    },
+    "d56531b3-1b91-404c-bd06-c0f5f9388755": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794829252969,
+      "endedAt": 1794829255215,
+      "files": {
+        "compositions/scene1.html": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\8c\\8cded1f22e99d50b03cab9e1647fdef4a29754b0ef34a7fe6fc60e5b1961a182",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\6a\\6ae8382439c39b12502ef6d5a8daf4cadb3852dfd26df1668203092f5aca11c2"
+        },
+        "compositions/scene2.html": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\86\\86b8528c6b2af3dbdadb066ddef519d2e68326e0862fa491316bca66f4ce2646",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\f6\\f6696941c745cab14da7bf93fab8b5ea61ac036d07899f5f5b1de78d32c1b47b"
+        },
+        "compositions/scene3.html": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\3b\\3b504eb8711e35157d90969108c6bdb6fb136d6982957f800ea090e8d14e29f6",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\e5\\e5e69a2a19d02401a151d60c0faa280abdd59bc7c802cd678ffea7dd4561acb4"
+        },
+        "compositions/scene4.html": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\1b\\1bc7ba7a152fd6a85181df35b06cb95749665b4baab0c2749c5d6399e97fb146",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\fd\\fde01db919992019ce2cd6f39f8209d3f1b39f006f41a29da16bb36c515dad1a"
+        }
+      }
+    },
+    "baaf6407-bc79-4eea-bcd9-567a89a7660a": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794829357625,
+      "endedAt": 1794829360164,
+      "files": {
+        "compositions/scene1.html": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\6a\\6ae8382439c39b12502ef6d5a8daf4cadb3852dfd26df1668203092f5aca11c2",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\c3\\c3776dfdcd6e47ae4c5cd675af48d9b6b6f101a22d50cc8fba23d453d575b4a0"
+        },
+        "compositions/scene2.html": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\f6\\f6696941c745cab14da7bf93fab8b5ea61ac036d07899f5f5b1de78d32c1b47b",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\b3\\b37a6ff83141b88113c8c9c7025dbf458b1301a6cea2dab21e5584d8d1e1e799"
+        },
+        "compositions/scene3.html": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\e5\\e5e69a2a19d02401a151d60c0faa280abdd59bc7c802cd678ffea7dd4561acb4",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\4e\\4eb1843f13022636d0782644a940f9f6e639503a67257accb9556c38c5b9d0e3"
+        },
+        "compositions/scene4.html": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\fd\\fde01db919992019ce2cd6f39f8209d3f1b39f006f41a29da16bb36c515dad1a",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\03\\03de9c5ea207830862dd7c747a277d29f1770a2dc91d2ea5f92f725378ad95d8"
+        }
+      }
+    },
+    "2fe97a01-801d-4d6d-9ae7-0d714197efae": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794829422667,
+      "endedAt": 1794829424678,
+      "files": {
+        "REVIEW.md": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\ba\\ba98ff7dd69d6733ebd552029efe4344a4a295199fed1416f560efb75146bbed",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\91\\919ce4321dd11df89f79fc3e884579bc2ad216ed7fc95348330de6d85d97e28c"
+        }
+      }
+    },
+    "81e11f59-19c3-478f-b578-ee53613c1296": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794829515987,
+      "endedAt": 1794829517994,
+      "files": {
+        "REVIEW.md": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\91\\919ce4321dd11df89f79fc3e884579bc2ad216ed7fc95348330de6d85d97e28c",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\14\\14af9a2f187550dc55d959b3b524a577b062088b4540cba965e8c4a7f3dedf13"
+        }
+      }
+    },
+    "1bcfedc6-d3bb-44a8-a52c-08d70ac403bc": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794830033629,
+      "endedAt": 1794830037848,
+      "files": {
+        "assets/voice1-alex.mp3": {
+          "before": null,
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\05\\057c66ba14e65e44cb77185b2574b7899f5a382ae5515e5e2ae48e4bb3151772"
+        },
+        "assets/voice1.wav": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\9a\\9a66305552a7bd5b4029a78fc6fe903a314493983edcbefdc62eaa6dc6233cf9",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\78\\78f121b97f45553e04effe64a6ea4c756254516536a55779ede43cd06571c2b1"
+        },
+        "assets/voice2-alex.mp3": {
+          "before": null,
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\2c\\2cdc567d5b0c257b465337a9b284b887356f35b31fe1cc8de9e1a7af6cb76a9d"
+        },
+        "assets/voice2.wav": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\da\\dac247a3afade1cc238254f1f0af7d7f4f54ccf3f705df7e2af0e8eefaae07e5",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\fc\\fc90c55b5bf4276265ebe95f59975435e0835c92f620e647754f6e86a2b535fd"
+        }
+      }
+    },
+    "b945daad-41e9-4411-83e1-7bcbff418f31": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794830038151,
+      "endedAt": 1794830043939,
+      "files": {
+        "assets/voice-provider.json": {
+          "before": null,
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\32\\321d39a01563a2092b896d8bf1070d3e141333746e9d0667b4bb9ec17cf55c9a"
+        },
+        "assets/voice3-alex.mp3": {
+          "before": null,
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\95\\95e9f3ee4e39a8c577799d2001d7a40c822d57cb92d55e39e753a3171b7c9a95"
+        },
+        "assets/voice3.wav": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\53\\5391762014487084f94e2ad24757b413a192af615f618a24f3dee2f1bcf45e77",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\b5\\b58740f98fde25d36662747fefcb6bde8a9a7a11263be9433a81e4ac78122de7"
+        },
+        "assets/voice4-alex.mp3": {
+          "before": null,
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\16\\16eea895121894b9ef715919f7c5257ded626a6f956d08538fdfe60196fb8f97"
+        },
+        "assets/voice4.wav": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\b6\\b6eb063c439b2eddd4e6c8a23bf997b52d9115891e057b218ff2bd375280bc9e",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\67\\677a880782f66867ec0e58fe6ba4fdbc99e73a5626b01135f4f864d04392dbc3"
+        }
+      }
+    },
+    "99e0a1b2-2691-4430-9d48-2ac4554a09a3": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1794830071421,
+      "endedAt": 1794830073558,
+      "files": {
+        "compositions/scene1.html": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\c3\\c3776dfdcd6e47ae4c5cd675af48d9b6b6f101a22d50cc8fba23d453d575b4a0",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\df\\df1feb3b372fa865b2a86018ba74297bde605f6d3f25906a29fd0bb1fd8774af"
+        },
+        "compositions/scene2.html": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\b3\\b37a6ff83141b88113c8c9c7025dbf458b1301a6cea2dab21e5584d8d1e1e799",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\fc\\fc49f9fde8875b589a1045b4acf7d6ac633042dc7be8f0abb4b445245b3b909b"
+        },
+        "compositions/scene3.html": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\4e\\4eb1843f13022636d0782644a940f9f6e639503a67257accb9556c38c5b9d0e3",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\93\\93743fd12b5d3a1f1503714a2a40060c048e641fedad8907b7de828d63090128"
+        },
+        "compositions/scene4.html": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\03\\03de9c5ea207830862dd7c747a277d29f1770a2dc91d2ea5f92f725378ad95d8",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\06\\06d9c2c1213427a349e2c96dc951bdd424a6fcbe08fdcad602a6cd3724c94647"
+        },
+        "index.html": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\ac\\ac5d838bf307068dcbd1c27fe77e2919c9007dbafbde077e3359b036b7517204",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\f0\\f03f6b8f3b3d959417bb8e59d3b8a2b75c8721a33d72a1bab0a7b799e53aa5de"
+        },
+        "metadata.json": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\af\\af16a2d3de1ed6decfceb5a32d9c751b631553aa7f8afeaf638390905ec5e107",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\9c\\9cc7e301369c2ffa5f907b27d84fba047dce70c82efd35fa9183235470e324c4"
+        },
+        "subtitles.srt": {
+          "before": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\87\\876c1b2a7da594b32f09dd7ff30f4f763c05d63b56604c9e0292f752eb0feaf2",
+          "after": "C:\\Users\\huanc\\.cache\\hyperframes\\history\\099a5f51-337d-458f-b37e-60250103427f\\blobs\\54\\546428427feffee7ebdf9ca9477f0162b4042c7d07fb49662b96723fa25ca7af"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": "baaf6407-bc79-4eea-bcd9-567a89a7660a",
+      "id": "241334bc-b955-44bb-ba77-b33883a6e622"
+    },
+    "revisions": {
+      "9ee9db16-21c5-4191-9d6c-3fcdd5780576": [
+        {
+          "id": "97b145c7-32d9-4725-a52d-0ab67f7b2af7",
+          "scope": "project",
+          "report": "C:\\Users\\huanc\\Downloads\\videoia\\projects\\demo\\.hyperframes\\artifacts\\checks\\97b145c7-32d9-4725-a52d-0ab67f7b2af7.json",
+          "metadata": {
+            "ok": false,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "cache": true,
+              "contrast": true,
+              "craft": true,
+              "strict": false,
+              "snapshots": false,
+              "safeZones": [
+                "tiktok",
+                "reels",
+                "shorts"
+              ],
+              "browserGpuMode": "auto",
+              "includeUnmounted": false
+            }
+          },
+          "createdAt": 1794810504322,
+          "contentHash": "1f44fe536a8b2eec86bf412fe7bdae4d8b407e551686da5d19b925c37227115a",
+          "revision": "9ee9db16-21c5-4191-9d6c-3fcdd5780576",
+          "inputFingerprint": "a15582b25f5032e113cd12329bd70df4fc8b6497f134915674b74a39ff0f71eb",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "1ef1a2ea-df78-4e5b-8eae-92ebc0eef6cd": [
+        {
+          "id": "1c0d5e44-f902-42d1-8e2a-33482208ff4b",
+          "scope": "project",
+          "report": "C:\\Users\\huanc\\Downloads\\videoia\\projects\\demo\\.hyperframes\\artifacts\\checks\\1c0d5e44-f902-42d1-8e2a-33482208ff4b.json",
+          "metadata": {
+            "ok": false,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "cache": true,
+              "contrast": true,
+              "craft": true,
+              "strict": false,
+              "snapshots": false,
+              "safeZones": [
+                "tiktok",
+                "reels",
+                "shorts"
+              ],
+              "browserGpuMode": "auto",
+              "includeUnmounted": false
+            }
+          },
+          "createdAt": 1794810880393,
+          "contentHash": "76c72013783623efad42303dca67e59f0af2799ae98baf1e62c397cf563081ff",
+          "revision": "1ef1a2ea-df78-4e5b-8eae-92ebc0eef6cd",
+          "inputFingerprint": "85e936223e68fac01bf397edf4c29e8c0d5bf08317c1402f22d8bd0cf2feb3af",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "id": "5c70ce63-4a61-4200-9063-12c406671674",
+          "scope": "project",
+          "report": "C:\\Users\\huanc\\Downloads\\videoia\\projects\\demo\\.hyperframes\\artifacts\\checks\\5c70ce63-4a61-4200-9063-12c406671674.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "cache": true,
+              "contrast": true,
+              "craft": true,
+              "strict": false,
+              "snapshots": false,
+              "safeZones": [
+                "tiktok",
+                "reels",
+                "shorts"
+              ],
+              "browserGpuMode": "auto",
+              "includeUnmounted": false
+            }
+          },
+          "createdAt": 1794810975990,
+          "contentHash": "300157e94688a82cb853638094e1d7a0926fbf811d2535bc72cd967f1763ec52",
+          "revision": "1ef1a2ea-df78-4e5b-8eae-92ebc0eef6cd",
+          "inputFingerprint": "85e936223e68fac01bf397edf4c29e8c0d5bf08317c1402f22d8bd0cf2feb3af",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "d56531b3-1b91-404c-bd06-c0f5f9388755": [
+        {
+          "id": "ee04f91f-5fe3-496c-b077-9ca18be271f2",
+          "scope": "project",
+          "report": "C:\\Users\\huanc\\Downloads\\videoia\\projects\\demo\\.hyperframes\\artifacts\\checks\\ee04f91f-5fe3-496c-b077-9ca18be271f2.json",
+          "metadata": {
+            "ok": false,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "cache": true,
+              "contrast": true,
+              "craft": true,
+              "strict": false,
+              "snapshots": false,
+              "safeZones": [
+                "tiktok",
+                "reels",
+                "shorts"
+              ],
+              "browserGpuMode": "auto",
+              "includeUnmounted": false
+            }
+          },
+          "createdAt": 1794829305608,
+          "contentHash": "7d4a7b8cb91aef9ae4e2fa9143c94987d01936128d970543753ad3b29992741b",
+          "revision": "d56531b3-1b91-404c-bd06-c0f5f9388755",
+          "inputFingerprint": "7bc45f1548eb0eab48f6142ac854d30455a9eaeda59df14155a1bf4de364cc2c",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "id": "527b8316-6c24-459a-82fd-24b247234680",
+          "scope": "project",
+          "report": "C:\\Users\\huanc\\Downloads\\videoia\\projects\\demo\\.hyperframes\\artifacts\\checks\\527b8316-6c24-459a-82fd-24b247234680.json",
+          "metadata": {
+            "ok": false,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "cache": true,
+              "contrast": true,
+              "craft": true,
+              "strict": false,
+              "snapshots": false,
+              "safeZones": [
+                "tiktok",
+                "reels",
+                "shorts"
+              ],
+              "browserGpuMode": "auto",
+              "includeUnmounted": false
+            }
+          },
+          "createdAt": 1794829352301,
+          "contentHash": "2688d646834b7e8071153695244971410469485a250008275c2d266c48e9b669",
+          "revision": "d56531b3-1b91-404c-bd06-c0f5f9388755",
+          "inputFingerprint": "7bc45f1548eb0eab48f6142ac854d30455a9eaeda59df14155a1bf4de364cc2c",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "baaf6407-bc79-4eea-bcd9-567a89a7660a": [
+        {
+          "id": "241334bc-b955-44bb-ba77-b33883a6e622",
+          "scope": "project",
+          "report": "C:\\Users\\huanc\\Downloads\\videoia\\projects\\demo\\.hyperframes\\artifacts\\checks\\241334bc-b955-44bb-ba77-b33883a6e622.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "cache": true,
+              "contrast": true,
+              "craft": true,
+              "strict": false,
+              "snapshots": false,
+              "safeZones": [
+                "tiktok",
+                "reels",
+                "shorts"
+              ],
+              "browserGpuMode": "auto",
+              "includeUnmounted": false
+            }
+          },
+          "createdAt": 1794829373147,
+          "contentHash": "d9072806cb3bb05287df63242b5176b8a8b2f4fb807464cacd2039a676b7f229",
+          "revision": "baaf6407-bc79-4eea-bcd9-567a89a7660a",
+          "inputFingerprint": "8800242cd03c35afcb38f218f18ec1c5df3149817d481c50f183a2c95a957a83",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": [
+      {
+        "id": "75791f49-825d-47ab-9073-ec3ee8f8e28c",
+        "scope": "project",
+        "report": "C:\\Users\\huanc\\Downloads\\videoia\\projects\\demo\\.hyperframes\\artifacts\\checks\\75791f49-825d-47ab-9073-ec3ee8f8e28c.json",
+        "metadata": {
+          "ok": true,
+          "browserSkipped": false,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "cache": true,
+            "contrast": true,
+            "craft": true,
+            "strict": false,
+            "snapshots": false,
+            "safeZones": [
+              "tiktok",
+              "reels",
+              "shorts"
+            ],
+            "browserGpuMode": "auto",
+            "includeUnmounted": false
+          }
+        },
+        "createdAt": 1794810372345,
+        "contentHash": "d244a2393c2159b2d95bd5c4ee63ec3dba73a1855cfb07492498847d1c57e3bb",
+        "revision": null,
+        "inputFingerprint": "af27a75b9bc7f8a7d82268c7d69c4a2f1d9402fce705ee5803db49133bd19a5f",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": {
+      "revision": "d56531b3-1b91-404c-bd06-c0f5f9388755",
+      "id": "e0b0436d-28a9-4796-a716-86db87cc88c3-4"
+    },
+    "revisions": {
+      "9ee9db16-21c5-4191-9d6c-3fcdd5780576": [
+        {
+          "scope": "full",
+          "id": "395b2df3-abf7-45e2-a7f7-664bb214ed3c-0",
+          "image": "C:\\Users\\huanc\\Downloads\\videoia\\output\\frames\\frame-00-at-1s.png",
+          "time": 1,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794810555175,
+          "contentHash": "ed1d06a6032d0f71535853463f12d4648abe9241f81e02a432c34deefc19e03e",
+          "revision": "9ee9db16-21c5-4191-9d6c-3fcdd5780576",
+          "inputFingerprint": "a15582b25f5032e113cd12329bd70df4fc8b6497f134915674b74a39ff0f71eb",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "395b2df3-abf7-45e2-a7f7-664bb214ed3c-1",
+          "image": "C:\\Users\\huanc\\Downloads\\videoia\\output\\frames\\frame-01-at-8s.png",
+          "time": 8,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794810555175,
+          "contentHash": "2bcf928700896a1484265c7972abaa92d2ffedaab57218fa7a867696e2b1a23e",
+          "revision": "9ee9db16-21c5-4191-9d6c-3fcdd5780576",
+          "inputFingerprint": "a15582b25f5032e113cd12329bd70df4fc8b6497f134915674b74a39ff0f71eb",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "395b2df3-abf7-45e2-a7f7-664bb214ed3c-2",
+          "image": "C:\\Users\\huanc\\Downloads\\videoia\\output\\frames\\frame-02-at-15s.png",
+          "time": 15,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794810555175,
+          "contentHash": "e069ce45a3af00954bc515d385c469ffb83f87aec92bb3a91f7b5243fa7c0386",
+          "revision": "9ee9db16-21c5-4191-9d6c-3fcdd5780576",
+          "inputFingerprint": "a15582b25f5032e113cd12329bd70df4fc8b6497f134915674b74a39ff0f71eb",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "395b2df3-abf7-45e2-a7f7-664bb214ed3c-3",
+          "image": "C:\\Users\\huanc\\Downloads\\videoia\\output\\frames\\frame-03-at-23s.png",
+          "time": 23,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794810555175,
+          "contentHash": "885c8d31f5f525f0aeb022135a0025dfb0a5bd211a3fba368d9a8be5d890a94d",
+          "revision": "9ee9db16-21c5-4191-9d6c-3fcdd5780576",
+          "inputFingerprint": "a15582b25f5032e113cd12329bd70df4fc8b6497f134915674b74a39ff0f71eb",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "395b2df3-abf7-45e2-a7f7-664bb214ed3c-4",
+          "image": "C:\\Users\\huanc\\Downloads\\videoia\\output\\frames\\frame-04-at-25.75s.png",
+          "time": 25.75,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794810555176,
+          "contentHash": "0263388a8ffd23b4c9baf46514579bf5dc1fee874e9a1b2a9da6fd8c6b550559",
+          "revision": "9ee9db16-21c5-4191-9d6c-3fcdd5780576",
+          "inputFingerprint": "a15582b25f5032e113cd12329bd70df4fc8b6497f134915674b74a39ff0f71eb",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "1ef1a2ea-df78-4e5b-8eae-92ebc0eef6cd": [
+        {
+          "scope": "full",
+          "id": "55c2a081-3899-4a4f-a4d8-c746ddd50926-0",
+          "image": "C:\\Users\\huanc\\Downloads\\videoia\\output\\final-frames\\frame-00-at-1s.png",
+          "time": 1,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794810943955,
+          "contentHash": "1b56b4f7e12078c0d9832b79c0a91df017fc8fbff35a8c6286b75b6e8f43f31d",
+          "revision": "1ef1a2ea-df78-4e5b-8eae-92ebc0eef6cd",
+          "inputFingerprint": "85e936223e68fac01bf397edf4c29e8c0d5bf08317c1402f22d8bd0cf2feb3af",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "55c2a081-3899-4a4f-a4d8-c746ddd50926-1",
+          "image": "C:\\Users\\huanc\\Downloads\\videoia\\output\\final-frames\\frame-01-at-8s.png",
+          "time": 8,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794810943957,
+          "contentHash": "b4d4dd373a1a72e1affbb3d456a4336ee7bd99c2a0e1d28448c706b67015163b",
+          "revision": "1ef1a2ea-df78-4e5b-8eae-92ebc0eef6cd",
+          "inputFingerprint": "85e936223e68fac01bf397edf4c29e8c0d5bf08317c1402f22d8bd0cf2feb3af",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "55c2a081-3899-4a4f-a4d8-c746ddd50926-2",
+          "image": "C:\\Users\\huanc\\Downloads\\videoia\\output\\final-frames\\frame-02-at-15s.png",
+          "time": 15,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794810943959,
+          "contentHash": "14fa5ceb7355eeb11213e5cc8fd7ddbab99faeaca09a5188e939a94ab357a7aa",
+          "revision": "1ef1a2ea-df78-4e5b-8eae-92ebc0eef6cd",
+          "inputFingerprint": "85e936223e68fac01bf397edf4c29e8c0d5bf08317c1402f22d8bd0cf2feb3af",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "55c2a081-3899-4a4f-a4d8-c746ddd50926-3",
+          "image": "C:\\Users\\huanc\\Downloads\\videoia\\output\\final-frames\\frame-03-at-23s.png",
+          "time": 23,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794810943960,
+          "contentHash": "b27e1b1cf35467b4cdebbb66fc24c2d89aede5e0852b2f984efafe88c41da4bb",
+          "revision": "1ef1a2ea-df78-4e5b-8eae-92ebc0eef6cd",
+          "inputFingerprint": "85e936223e68fac01bf397edf4c29e8c0d5bf08317c1402f22d8bd0cf2feb3af",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "55c2a081-3899-4a4f-a4d8-c746ddd50926-4",
+          "image": "C:\\Users\\huanc\\Downloads\\videoia\\output\\final-frames\\frame-04-at-25.75s.png",
+          "time": 25.75,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794810943960,
+          "contentHash": "ed1a7d0b04b2a75a88c90e7d989ba36e8dad863a6b211986bcec95f3c78510aa",
+          "revision": "1ef1a2ea-df78-4e5b-8eae-92ebc0eef6cd",
+          "inputFingerprint": "85e936223e68fac01bf397edf4c29e8c0d5bf08317c1402f22d8bd0cf2feb3af",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "d56531b3-1b91-404c-bd06-c0f5f9388755": [
+        {
+          "scope": "full",
+          "id": "e0b0436d-28a9-4796-a716-86db87cc88c3-0",
+          "image": "C:\\Users\\huanc\\Downloads\\videoia\\output\\animated-frames\\frame-00-at-3s.png",
+          "time": 3,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794829298481,
+          "contentHash": "d1be2bff8ba8618e559e6afdbe1a01afc591e304d4b4879836943dce841b2dde",
+          "revision": "d56531b3-1b91-404c-bd06-c0f5f9388755",
+          "inputFingerprint": "7bc45f1548eb0eab48f6142ac854d30455a9eaeda59df14155a1bf4de364cc2c",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "e0b0436d-28a9-4796-a716-86db87cc88c3-1",
+          "image": "C:\\Users\\huanc\\Downloads\\videoia\\output\\animated-frames\\frame-01-at-10s.png",
+          "time": 10,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794829298483,
+          "contentHash": "f5ac9f72bb88a25fd7f5e056525f1ae505cb05f9a24df1baac5da0c24265d573",
+          "revision": "d56531b3-1b91-404c-bd06-c0f5f9388755",
+          "inputFingerprint": "7bc45f1548eb0eab48f6142ac854d30455a9eaeda59df14155a1bf4de364cc2c",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "e0b0436d-28a9-4796-a716-86db87cc88c3-2",
+          "image": "C:\\Users\\huanc\\Downloads\\videoia\\output\\animated-frames\\frame-02-at-17s.png",
+          "time": 17,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794829298491,
+          "contentHash": "fa1b36b538bbc2771d87ea74760bc581eb67379d41ea441075037a6559dfc48f",
+          "revision": "d56531b3-1b91-404c-bd06-c0f5f9388755",
+          "inputFingerprint": "7bc45f1548eb0eab48f6142ac854d30455a9eaeda59df14155a1bf4de364cc2c",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "e0b0436d-28a9-4796-a716-86db87cc88c3-3",
+          "image": "C:\\Users\\huanc\\Downloads\\videoia\\output\\animated-frames\\frame-03-at-23s.png",
+          "time": 23,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794829298494,
+          "contentHash": "072a6b6ad2c06c4563eeae7555eff9a7c88814ca88bd60f880f4a321ebda06e5",
+          "revision": "d56531b3-1b91-404c-bd06-c0f5f9388755",
+          "inputFingerprint": "7bc45f1548eb0eab48f6142ac854d30455a9eaeda59df14155a1bf4de364cc2c",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "e0b0436d-28a9-4796-a716-86db87cc88c3-4",
+          "image": "C:\\Users\\huanc\\Downloads\\videoia\\output\\animated-frames\\frame-04-at-25.75s.png",
+          "time": 25.75,
+          "metadata": {
+            "width": 1080,
+            "height": 1920,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1794829298496,
+          "contentHash": "9ac0558bb580149bef2463d746737f1802251add73e64b415fb24e4a5e9c275f",
+          "revision": "d56531b3-1b91-404c-bd06-c0f5f9388755",
+          "inputFingerprint": "7bc45f1548eb0eab48f6142ac854d30455a9eaeda59df14155a1bf4de364cc2c",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "ab01f61f-d59a-452f-b24c-879b432eae1e",
+      "completedAt": 1794829492969,
+      "output": "C:\\Users\\huanc\\Downloads\\videoia\\output\\seguridad-web-animado.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

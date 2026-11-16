@@ -1,0 +1,368 @@
+
+> videoia-local@0.1.0 hf
+> node scripts/hf.mjs check projects/demo --json
+
+[hyperframes] check: the report is saved to C:\Users\huanc\Downloads\videoia\projects\demo\.hyperframes\artifacts\checks\241334bc-b955-44bb-ba77-b33883a6e622.json when the check ends, unless a warning says it could not be saved
+[INFO] [Compiler] Fetched 11 font face(s) for "Inter" from Google Fonts (cached to C:\Users\huanc\.cache\hyperframes\fonts\inter)
+[INFO] [Compiler] Injected deterministic @font-face rules for 1 requested font families
+[hyperframes] check: starting Chrome
+[hyperframes] browserGpuMode probe → hardware (WebGL renderer vendor="Google Inc. (Intel)" renderer="ANGLE (Intel, Intel(R) Iris(R) Plus Graphics (0x00008A52) Direct3D11 vs_5_0 ps_5_0, D3D11)")
+[hyperframes] check: loading the page
+[hyperframes] check: waiting for the page to be ready
+[hyperframes] check: checking samples
+[hyperframes] check: samples 1/9
+[hyperframes] check: samples 2/9
+[hyperframes] check: samples 3/9
+[hyperframes] check: samples 4/9
+[hyperframes] check: samples 5/9
+[hyperframes] check: samples 6/9
+[hyperframes] check: samples 7/9
+[hyperframes] check: samples 8/9
+[hyperframes] check: samples 9/9
+[hyperframes] check: running the overlap pass
+[hyperframes] check: craft 1/208
+[hyperframes] check: craft 2/208
+[hyperframes] check: craft 3/208
+[hyperframes] check: craft 4/208
+[hyperframes] check: craft 5/208
+[hyperframes] check: craft 6/208
+[hyperframes] check: craft 7/208
+[hyperframes] check: craft 8/208
+[hyperframes] check: craft 9/208
+[hyperframes] check: craft 10/208
+[hyperframes] check: craft 11/208
+[hyperframes] check: craft 12/208
+[hyperframes] check: craft 13/208
+[hyperframes] check: craft 14/208
+[hyperframes] check: craft 15/208
+[hyperframes] check: craft 16/208
+[hyperframes] check: craft 17/208
+[hyperframes] check: craft 18/208
+[hyperframes] check: craft 19/208
+[hyperframes] check: craft 20/208
+[hyperframes] check: craft 21/208
+[hyperframes] check: craft 22/208
+[hyperframes] check: craft 23/208
+[hyperframes] check: craft 24/208
+[hyperframes] check: craft 25/208
+[hyperframes] check: craft 26/208
+[hyperframes] check: craft 27/208
+[hyperframes] check: craft 28/208
+[hyperframes] check: craft 29/208
+[hyperframes] check: craft 30/208
+[hyperframes] check: craft 31/208
+[hyperframes] check: craft 32/208
+[hyperframes] check: craft 33/208
+[hyperframes] check: craft 34/208
+[hyperframes] check: craft 35/208
+[hyperframes] check: craft 36/208
+[hyperframes] check: craft 37/208
+[hyperframes] check: craft 38/208
+[hyperframes] check: craft 39/208
+[hyperframes] check: craft 40/208
+[hyperframes] check: craft 41/208
+[hyperframes] check: craft 42/208
+[hyperframes] check: craft 43/208
+[hyperframes] check: craft 44/208
+[hyperframes] check: craft 45/208
+[hyperframes] check: craft 46/208
+[hyperframes] check: craft 47/208
+[hyperframes] check: craft 48/208
+[hyperframes] check: craft 49/208
+[hyperframes] check: craft 50/208
+[hyperframes] check: craft 51/208
+[hyperframes] check: craft 52/208
+[hyperframes] check: craft 53/208
+[hyperframes] check: craft 54/208
+[hyperframes] check: craft 55/208
+[hyperframes] check: craft 56/208
+[hyperframes] check: craft 57/208
+[hyperframes] check: craft 58/208
+[hyperframes] check: craft 59/208
+[hyperframes] check: craft 60/208
+[hyperframes] check: craft 61/208
+[hyperframes] check: craft 62/208
+[hyperframes] check: craft 63/208
+[hyperframes] check: craft 64/208
+[hyperframes] check: craft 65/208
+[hyperframes] check: craft 66/208
+[hyperframes] check: craft 67/208
+[hyperframes] check: craft 68/208
+[hyperframes] check: craft 69/208
+[hyperframes] check: craft 70/208
+[hyperframes] check: craft 71/208
+[hyperframes] check: craft 72/208
+[hyperframes] check: craft 73/208
+[hyperframes] check: craft 74/208
+[hyperframes] check: craft 75/208
+[hyperframes] check: craft 76/208
+[hyperframes] check: craft 77/208
+[hyperframes] check: craft 78/208
+[hyperframes] check: craft 79/208
+[hyperframes] check: craft 80/208
+[hyperframes] check: craft 81/208
+[hyperframes] check: craft 82/208
+[hyperframes] check: craft 83/208
+[hyperframes] check: craft 84/208
+[hyperframes] check: craft 85/208
+[hyperframes] check: craft 86/208
+[hyperframes] check: craft 87/208
+[hyperframes] check: craft 88/208
+[hyperframes] check: craft 89/208
+[hyperframes] check: craft 90/208
+[hyperframes] check: craft 91/208
+[hyperframes] check: craft 92/208
+[hyperframes] check: craft 93/208
+[hyperframes] check: craft 94/208
+[hyperframes] check: craft 95/208
+[hyperframes] check: craft 96/208
+[hyperframes] check: craft 97/208
+[hyperframes] check: craft 98/208
+[hyperframes] check: craft 99/208
+[hyperframes] check: craft 100/208
+[hyperframes] check: craft 101/208
+[hyperframes] check: craft 102/208
+[hyperframes] check: craft 103/208
+[hyperframes] check: craft 104/208
+[hyperframes] check: craft 105/208
+[hyperframes] check: craft 106/208
+[hyperframes] check: craft 107/208
+[hyperframes] check: craft 108/208
+[hyperframes] check: craft 109/208
+[hyperframes] check: craft 110/208
+[hyperframes] check: craft 111/208
+[hyperframes] check: craft 112/208
+[hyperframes] check: craft 113/208
+[hyperframes] check: craft 114/208
+[hyperframes] check: craft 115/208
+[hyperframes] check: craft 116/208
+[hyperframes] check: craft 117/208
+[hyperframes] check: craft 118/208
+[hyperframes] check: craft 119/208
+[hyperframes] check: craft 120/208
+[hyperframes] check: craft 121/208
+[hyperframes] check: craft 122/208
+[hyperframes] check: craft 123/208
+[hyperframes] check: craft 124/208
+[hyperframes] check: craft 125/208
+[hyperframes] check: craft 126/208
+[hyperframes] check: craft 127/208
+[hyperframes] check: craft 128/208
+[hyperframes] check: craft 129/208
+[hyperframes] check: craft 130/208
+[hyperframes] check: craft 131/208
+[hyperframes] check: craft 132/208
+[hyperframes] check: craft 133/208
+[hyperframes] check: craft 134/208
+[hyperframes] check: craft 135/208
+[hyperframes] check: craft 136/208
+[hyperframes] check: craft 137/208
+[hyperframes] check: craft 138/208
+[hyperframes] check: craft 139/208
+[hyperframes] check: craft 140/208
+[hyperframes] check: craft 141/208
+[hyperframes] check: craft 142/208
+[hyperframes] check: craft 143/208
+[hyperframes] check: craft 144/208
+[hyperframes] check: craft 145/208
+[hyperframes] check: craft 146/208
+[hyperframes] check: craft 147/208
+[hyperframes] check: craft 148/208
+[hyperframes] check: craft 149/208
+[hyperframes] check: craft 150/208
+[hyperframes] check: craft 151/208
+[hyperframes] check: craft 152/208
+[hyperframes] check: craft 153/208
+[hyperframes] check: craft 154/208
+[hyperframes] check: craft 155/208
+[hyperframes] check: craft 156/208
+[hyperframes] check: craft 157/208
+[hyperframes] check: craft 158/208
+[hyperframes] check: craft 159/208
+[hyperframes] check: craft 160/208
+[hyperframes] check: craft 161/208
+[hyperframes] check: craft 162/208
+[hyperframes] check: craft 163/208
+[hyperframes] check: craft 164/208
+[hyperframes] check: craft 165/208
+[hyperframes] check: craft 166/208
+[hyperframes] check: craft 167/208
+[hyperframes] check: craft 168/208
+[hyperframes] check: craft 169/208
+[hyperframes] check: craft 170/208
+[hyperframes] check: craft 171/208
+[hyperframes] check: craft 172/208
+[hyperframes] check: craft 173/208
+[hyperframes] check: craft 174/208
+[hyperframes] check: craft 175/208
+[hyperframes] check: craft 176/208
+[hyperframes] check: craft 177/208
+[hyperframes] check: craft 178/208
+[hyperframes] check: craft 179/208
+[hyperframes] check: craft 180/208
+[hyperframes] check: craft 181/208
+[hyperframes] check: craft 182/208
+[hyperframes] check: craft 183/208
+[hyperframes] check: craft 184/208
+[hyperframes] check: craft 185/208
+[hyperframes] check: craft 186/208
+[hyperframes] check: craft 187/208
+[hyperframes] check: craft 188/208
+[hyperframes] check: craft 189/208
+[hyperframes] check: craft 190/208
+[hyperframes] check: craft 191/208
+[hyperframes] check: craft 192/208
+[hyperframes] check: craft 193/208
+[hyperframes] check: craft 194/208
+[hyperframes] check: craft 195/208
+[hyperframes] check: craft 196/208
+[hyperframes] check: craft 197/208
+[hyperframes] check: craft 198/208
+[hyperframes] check: craft 199/208
+[hyperframes] check: craft 200/208
+[hyperframes] check: craft 201/208
+[hyperframes] check: craft 202/208
+[hyperframes] check: craft 203/208
+[hyperframes] check: craft 204/208
+[hyperframes] check: craft 205/208
+[hyperframes] check: craft 206/208
+[hyperframes] check: craft 207/208
+[hyperframes] check: craft 208/208
+[hyperframes] check: overlap 1/23
+[hyperframes] check: overlap 2/23
+[hyperframes] check: overlap 3/23
+[hyperframes] check: overlap 4/23
+[hyperframes] check: overlap 5/23
+[hyperframes] check: overlap 6/23
+[hyperframes] check: overlap 7/23
+[hyperframes] check: overlap 8/23
+[hyperframes] check: overlap 9/23
+[hyperframes] check: overlap 10/23
+[hyperframes] check: overlap 11/23
+[hyperframes] check: overlap 12/23
+[hyperframes] check: overlap 13/23
+[hyperframes] check: overlap 14/23
+[hyperframes] check: overlap 15/23
+[hyperframes] check: overlap 16/23
+[hyperframes] check: overlap 17/23
+[hyperframes] check: overlap 18/23
+[hyperframes] check: overlap 19/23
+[hyperframes] check: overlap 20/23
+[hyperframes] check: overlap 21/23
+[hyperframes] check: overlap 22/23
+[hyperframes] check: overlap 23/23
+[hyperframes] check: checking samples
+[hyperframes] check: analyze 0/3
+[hyperframes] check: analyzing the samples
+[hyperframes] check: analyze 1/3
+[hyperframes] check: analyze 2/3
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 5
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 26,
+    "samples": [
+      1.444,
+      4.333,
+      7.222,
+      10.111,
+      13,
+      15.889,
+      18.778,
+      21.667,
+      24.556
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+[hyperframes] check: report saved to C:\Users\huanc\Downloads\videoia\projects\demo\.hyperframes\artifacts\checks\241334bc-b955-44bb-ba77-b33883a6e622.json
+    "enabled": true,
+    "samples": [
+      1.444,
+      7.222,
+      13,
+      18.778,
+      24.556
+    ],
+    "checked": 28,
+    "passed": 28
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 208
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "241334bc-b955-44bb-ba77-b33883a6e622",
+    "revision": "baaf6407-bc79-4eea-bcd9-567a89a7660a",
+    "report": "C:\\Users\\huanc\\Downloads\\videoia\\projects\\demo\\.hyperframes\\artifacts\\checks\\241334bc-b955-44bb-ba77-b33883a6e622.json",
+    "attribution": "recorded-revision"
+  },
+  "_meta": {
+    "version": "0.9.56",
+    "updateAvailable": false,
+    "skillsOutdated": 2,
+    "skillsMissing": 2
+  }
+}

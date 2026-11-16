@@ -1,0 +1,4338 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 5,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "gsap_repeated_fromto_without_baseline",
+        "severity": "warning",
+        "message": "2 tl.fromTo() calls target \".browser\" with no stable baseline. The last-authored fromTo \"from\" values become the element's resting state for any seek before the first tween actually runs, because GSAP applies fromTo from-values at authoring time (immediateRender), not at tween position.",
+        "selector": ".browser",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\huanc\\Downloads\\videoia\\projects\\lms\\compositions\\scene1.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add `immediateRender: false` to every fromTo except the earliest-positioned one (at 0.55s), so pre-first-tween seeks keep its \"from\" values. A hiding `tl.set(..., 0)` baseline trips gsap_timeline_set_initial_hide, and a `gsap.set` authored before the fromTo calls is overwritten by them."
+      },
+      {
+        "code": "gsap_repeated_fromto_without_baseline",
+        "severity": "warning",
+        "message": "2 tl.fromTo() calls target \".browser\" with no stable baseline. The last-authored fromTo \"from\" values become the element's resting state for any seek before the first tween actually runs, because GSAP applies fromTo from-values at authoring time (immediateRender), not at tween position.",
+        "selector": ".browser",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\huanc\\Downloads\\videoia\\projects\\lms\\compositions\\scene2.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add `immediateRender: false` to every fromTo except the earliest-positioned one (at 0.55s), so pre-first-tween seeks keep its \"from\" values. A hiding `tl.set(..., 0)` baseline trips gsap_timeline_set_initial_hide, and a `gsap.set` authored before the fromTo calls is overwritten by them."
+      },
+      {
+        "code": "gsap_repeated_fromto_without_baseline",
+        "severity": "warning",
+        "message": "2 tl.fromTo() calls target \".browser\" with no stable baseline. The last-authored fromTo \"from\" values become the element's resting state for any seek before the first tween actually runs, because GSAP applies fromTo from-values at authoring time (immediateRender), not at tween position.",
+        "selector": ".browser",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\huanc\\Downloads\\videoia\\projects\\lms\\compositions\\scene3.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add `immediateRender: false` to every fromTo except the earliest-positioned one (at 0.55s), so pre-first-tween seeks keep its \"from\" values. A hiding `tl.set(..., 0)` baseline trips gsap_timeline_set_initial_hide, and a `gsap.set` authored before the fromTo calls is overwritten by them."
+      },
+      {
+        "code": "gsap_repeated_fromto_without_baseline",
+        "severity": "warning",
+        "message": "2 tl.fromTo() calls target \".browser\" with no stable baseline. The last-authored fromTo \"from\" values become the element's resting state for any seek before the first tween actually runs, because GSAP applies fromTo from-values at authoring time (immediateRender), not at tween position.",
+        "selector": ".browser",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\huanc\\Downloads\\videoia\\projects\\lms\\compositions\\scene4.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add `immediateRender: false` to every fromTo except the earliest-positioned one (at 0.55s), so pre-first-tween seeks keep its \"from\" values. A hiding `tl.set(..., 0)` baseline trips gsap_timeline_set_initial_hide, and a `gsap.set` authored before the fromTo calls is overwritten by them."
+      },
+      {
+        "code": "gsap_repeated_fromto_without_baseline",
+        "severity": "warning",
+        "message": "2 tl.fromTo() calls target \".browser\" with no stable baseline. The last-authored fromTo \"from\" values become the element's resting state for any seek before the first tween actually runs, because GSAP applies fromTo from-values at authoring time (immediateRender), not at tween position.",
+        "selector": ".browser",
+        "dataAttributes": {},
+        "sourceFile": "C:\\Users\\huanc\\Downloads\\videoia\\projects\\lms\\compositions\\scene5.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Add `immediateRender: false` to every fromTo except the earliest-positioned one (at 0.55s), so pre-first-tween seeks keep its \"from\" values. A hiding `tl.set(..., 0)` baseline trips gsap_timeline_set_initial_hide, and a `gsap.set` authored before the fromTo calls is overwritten by them."
+      }
+    ],
+    "filesScanned": 6
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"voice3\" is 7.66s but its slot (data-duration) is 7.80s — the slot is shortened to the media length when rendered. Set data-duration to ~7.66s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "41",
+          "data-width": "1080",
+          "data-height": "1920",
+          "data-fps": "30"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920
+        },
+        "time": 0
+      }
+    ]
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 80,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 25.056,
+        "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 78,
+          "top": 1385,
+          "right": 1006,
+          "bottom": 1476,
+          "width": 928,
+          "height": 91
+        },
+        "containerSelector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2)",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 76,
+          "top": 625,
+          "right": 1008,
+          "bottom": 1459,
+          "width": 932,
+          "height": 834
+        },
+        "overflow": {
+          "bottom": 17
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 78,
+          "y": 1385,
+          "width": 928,
+          "height": 91
+        },
+        "firstSeen": 25.056,
+        "lastSeen": 29.611,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          25.056,
+          29.611
+        ]
+      },
+      {
+        "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 92,
+          "y": 150,
+          "width": 554.33,
+          "height": 29
+        },
+        "time": 2.278,
+        "rect": {
+          "left": 92,
+          "top": 150,
+          "right": 646.33,
+          "bottom": 179,
+          "width": 554.33,
+          "height": 29
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "ODISEACLOUD / AULAS VIRTUALES",
+        "message": "<div> \"ODISEACLOUD / AULAS VIRTUALES\" is outside the safe area: TikTok (top edge), Instagram Reels (top edge), YouTube Shorts (top edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 2.278,
+        "lastSeen": 6.833,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          2.278,
+          6.833
+        ]
+      },
+      {
+        "selector": "#scene1 > div:nth-of-type(1) > h1:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 92,
+          "y": 228,
+          "width": 731.56,
+          "height": 160.44
+        },
+        "time": 2.278,
+        "rect": {
+          "left": 92,
+          "top": 228,
+          "right": 823.56,
+          "bottom": 388.44,
+          "width": 731.56,
+          "height": 160.44
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Tus cursos, en un solo campus",
+        "message": "<h1> \"Tus cursos, en un solo campus\" is outside the safe area: TikTok (left and top edges), Instagram Reels (top edge), YouTube Shorts (top edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 2.278,
+        "lastSeen": 6.833,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          2.278,
+          6.833
+        ]
+      },
+      {
+        "selector": "#scene1 > div:nth-of-type(1) > p:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 96,
+          "y": 432,
+          "width": 626.34,
+          "height": 39
+        },
+        "time": 2.278,
+        "rect": {
+          "left": 96,
+          "top": 432,
+          "right": 722.34,
+          "bottom": 471,
+          "width": 626.34,
+          "height": 39
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Deja atrás los cursos repartidos en chats.",
+        "message": "<p> \"Deja atrás los cursos repartidos en chats.\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 2.278,
+        "lastSeen": 6.833,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          2.278,
+          6.833
+        ]
+      },
+      {
+        "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > b:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 959.78,
+          "y": 650.49,
+          "width": 22.79,
+          "height": 20.03
+        },
+        "time": 2.278,
+        "rect": {
+          "left": 959.78,
+          "top": 650.49,
+          "right": 982.57,
+          "bottom": 670.52,
+          "width": 22.79,
+          "height": 20.03
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "•••",
+        "message": "<b> \"•••\" is outside the safe area: TikTok (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 2.278,
+        "lastSeen": 6.833,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          2.278,
+          6.833
+        ]
+      },
+      {
+        "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 95.42,
+          "y": 725.59,
+          "width": 124.94,
+          "height": 29.04
+        },
+        "time": 2.278,
+        "rect": {
+          "left": 95.42,
+          "top": 725.59,
+          "right": 220.36,
+          "bottom": 754.63,
+          "width": 124.94,
+          "height": 29.04
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "MI CAMPUS ◈",
+        "message": "<div> \"MI CAMPUS ◈\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 2.278,
+        "lastSeen": 6.833,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          2.278,
+          6.833
+        ]
+      },
+      {
+        "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 109.44,
+          "y": 815.71,
+          "width": 71.18,
+          "height": 20.02
+        },
+        "time": 2.278,
+        "rect": {
+          "left": 109.44,
+          "top": 815.71,
+          "right": 180.62,
+          "bottom": 835.73,
+          "width": 71.18,
+          "height": 20.02
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "▦ Inicio",
+        "message": "<div> \"▦ Inicio\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 2.278,
+        "lastSeen": 6.833,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          2.278,
+          6.833
+        ]
+      },
+      {
+        "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 109.44,
+          "y": 880.79,
+          "width": 116.04,
+          "height": 20.03
+        },
+        "time": 2.278,
+        "rect": {
+          "left": 109.44,
+          "top": 880.79,
+          "right": 225.48,
+          "bottom": 900.82,
+          "width": 116.04,
+          "height": 20.03
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "▤ Mis cursos",
+        "message": "<div> \"▤ Mis cursos\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 2.278,
+        "lastSeen": 6.833,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          2.278,
+          6.833
+        ]
+      },
+      {
+        "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(4)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 109.44,
+          "y": 945.88,
+          "width": 135.46,
+          "height": 20.02
+        },
+        "time": 2.278,
+        "rect": {
+          "left": 109.44,
+          "top": 945.88,
+          "right": 244.9,
+          "bottom": 965.9,
+          "width": 135.46,
+          "height": 20.02
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "✓ Evaluaciones",
+        "message": "<div> \"✓ Evaluaciones\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 2.278,
+        "lastSeen": 6.833,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          2.278,
+          6.833
+        ]
+      },
+      {
+        "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(5)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 109.44,
+          "y": 1008.96,
+          "width": 115.37,
+          "height": 20.02
+        },
+        "time": 2.278,
+        "rect": {
+          "left": 109.44,
+          "top": 1008.96,
+          "right": 224.81,
+          "bottom": 1028.98,
+          "width": 115.37,
+          "height": 20.02
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "◷ Calendario",
+        "message": "<div> \"◷ Calendario\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 2.278,
+        "lastSeen": 6.833,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          2.278,
+          6.833
+        ]
+      },
+      {
+        "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(6)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 153.4,
+          "y": 1315.35,
+          "width": 88.88,
+          "height": 39.06
+        },
+        "time": 2.278,
+        "rect": {
+          "left": 153.4,
+          "top": 1315.35,
+          "right": 242.28,
+          "bottom": 1354.41,
+          "width": 88.88,
+          "height": 39.06
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Ana Morales Estudiante",
+        "message": "<div> \"Ana Morales Estudiante\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 2.278,
+        "lastSeen": 6.833,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          2.278,
+          6.833
+        ]
+      },
+      {
+        "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 107.44,
+          "y": 1327.37,
+          "width": 23.93,
+          "height": 19.03
+        },
+        "time": 2.278,
+        "rect": {
+          "left": 107.44,
+          "top": 1327.37,
+          "right": 131.37,
+          "bottom": 1346.4,
+          "width": 23.93,
+          "height": 19.03
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "AM",
+        "message": "<span> \"AM\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 2.278,
+        "lastSeen": 6.833,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          2.278,
+          6.833
+        ]
+      },
+      {
+        "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 911.51,
+          "y": 733.6,
+          "width": 61.05,
+          "height": 20.03
+        },
+        "time": 2.278,
+        "rect": {
+          "left": 911.51,
+          "top": 733.6,
+          "right": 972.56,
+          "bottom": 753.63,
+          "width": 61.05,
+          "height": 20.03
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "🔔 AM",
+        "message": "<span> \"🔔 AM\" is outside the safe area: TikTok (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 2.278,
+        "lastSeen": 6.833,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          2.278,
+          6.833
+        ]
+      },
+      {
+        "selector": "div.welcome",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 417.84,
+          "y": 891.8,
+          "width": 339.96,
+          "height": 381.5
+        },
+        "time": 2.278,
+        "rect": {
+          "left": 417.84,
+          "top": 891.8,
+          "right": 757.8,
+          "bottom": 1273.3,
+          "width": 339.96,
+          "height": 381.5
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "◈ MI CAMPUS LECCIONES TAREAS PROGRESO",
+        "message": "<div> \"◈ MI CAMPUS LECCIONES TAREAS PROGRESO\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 2.278,
+        "lastSeen": 6.833,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          2.278,
+          6.833
+        ]
+      },
+      {
+        "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 356.54,
+          "y": 1403.47,
+          "width": 370.92,
+          "height": 15.02
+        },
+        "time": 2.278,
+        "rect": {
+          "left": 356.54,
+          "top": 1403.47,
+          "right": 727.46,
+          "bottom": 1418.49,
+          "width": 370.92,
+          "height": 15.02
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "VISTA DEMOSTRATIVA · INTERFAZ ILUSTRATIVA",
+        "message": "<div> \"VISTA DEMOSTRATIVA · INTERFAZ ILUSTRATIVA\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 2.278,
+        "lastSeen": 6.833,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          2.278,
+          6.833
+        ]
+      },
+      {
+        "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 96,
+          "y": 1752,
+          "width": 511.5,
+          "height": 26
+        },
+        "time": 2.278,
+        "rect": {
+          "left": 96,
+          "top": 1752,
+          "right": 607.5,
+          "bottom": 1778,
+          "width": 511.5,
+          "height": 26
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "TU CONOCIMIENTO MERECE UN CAMPUS",
+        "message": "<div> \"TU CONOCIMIENTO MERECE UN CAMPUS\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 2.278,
+        "lastSeen": 6.833,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          2.278,
+          6.833
+        ]
+      },
+      {
+        "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(4)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 753.13,
+          "y": 1750,
+          "width": 195.87,
+          "height": 21
+        },
+        "time": 2.278,
+        "rect": {
+          "left": 753.13,
+          "top": 1750,
+          "right": 949,
+          "bottom": 1771,
+          "width": 195.87,
+          "height": 21
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "DESLIZA Y DESCUBRE",
+        "message": "<div> \"DESLIZA Y DESCUBRE\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 2.278,
+        "lastSeen": 6.833,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          2.278,
+          6.833
+        ]
+      },
+      {
+        "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 92,
+          "y": 150,
+          "width": 554.33,
+          "height": 29
+        },
+        "time": 11.389,
+        "rect": {
+          "left": 92,
+          "top": 150,
+          "right": 646.33,
+          "bottom": 179,
+          "width": 554.33,
+          "height": 29
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "ODISEACLOUD / AULAS VIRTUALES",
+        "message": "<div> \"ODISEACLOUD / AULAS VIRTUALES\" is outside the safe area: TikTok (top edge), Instagram Reels (top edge), YouTube Shorts (top edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 11.389,
+        "lastSeen": 11.389,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          11.389
+        ]
+      },
+      {
+        "selector": "#scene2 > div:nth-of-type(1) > h1:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 92,
+          "y": 228,
+          "width": 736.3,
+          "height": 87
+        },
+        "time": 11.389,
+        "rect": {
+          "left": 92,
+          "top": 228,
+          "right": 828.3,
+          "bottom": 315,
+          "width": 736.3,
+          "height": 87
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Aprender, paso a paso",
+        "message": "<h1> \"Aprender, paso a paso\" is outside the safe area: TikTok (left and top edges), Instagram Reels (top edge), YouTube Shorts (top edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 11.389,
+        "lastSeen": 11.389,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          11.389
+        ]
+      },
+      {
+        "selector": "#scene2 > div:nth-of-type(1) > p:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 96,
+          "y": 432,
+          "width": 628.06,
+          "height": 39
+        },
+        "time": 11.389,
+        "rect": {
+          "left": 96,
+          "top": 432,
+          "right": 724.06,
+          "bottom": 471,
+          "width": 628.06,
+          "height": 39
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Materiales, tareas y lecciones ordenadas.",
+        "message": "<p> \"Materiales, tareas y lecciones ordenadas.\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 11.389,
+        "lastSeen": 11.389,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          11.389
+        ]
+      },
+      {
+        "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > b:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 969.25,
+          "y": 641.62,
+          "width": 23.31,
+          "height": 20.48
+        },
+        "time": 11.389,
+        "rect": {
+          "left": 969.25,
+          "top": 641.62,
+          "right": 992.56,
+          "bottom": 662.1,
+          "width": 23.31,
+          "height": 20.48
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "•••",
+        "message": "<b> \"•••\" is outside the safe area: TikTok (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 11.389,
+        "lastSeen": 11.389,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          11.389
+        ]
+      },
+      {
+        "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 85.3,
+          "y": 718.42,
+          "width": 127.77,
+          "height": 29.69
+        },
+        "time": 11.389,
+        "rect": {
+          "left": 85.3,
+          "top": 718.42,
+          "right": 213.07,
+          "bottom": 748.11,
+          "width": 127.77,
+          "height": 29.69
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "MI CAMPUS ◈",
+        "message": "<div> \"MI CAMPUS ◈\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 11.389,
+        "lastSeen": 11.389,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          11.389
+        ]
+      },
+      {
+        "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 99.63,
+          "y": 810.58,
+          "width": 72.8,
+          "height": 20.48
+        },
+        "time": 11.389,
+        "rect": {
+          "left": 99.63,
+          "top": 810.58,
+          "right": 172.43,
+          "bottom": 831.06,
+          "width": 72.8,
+          "height": 20.48
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "▦ Inicio",
+        "message": "<div> \"▦ Inicio\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 11.389,
+        "lastSeen": 11.389,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          11.389
+        ]
+      },
+      {
+        "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 99.63,
+          "y": 877.14,
+          "width": 118.67,
+          "height": 20.48
+        },
+        "time": 11.389,
+        "rect": {
+          "left": 99.63,
+          "top": 877.14,
+          "right": 218.3,
+          "bottom": 897.62,
+          "width": 118.67,
+          "height": 20.48
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "▤ Mis cursos",
+        "message": "<div> \"▤ Mis cursos\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 11.389,
+        "lastSeen": 11.389,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          11.389
+        ]
+      },
+      {
+        "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(4)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 99.63,
+          "y": 943.7,
+          "width": 138.53,
+          "height": 20.48
+        },
+        "time": 11.389,
+        "rect": {
+          "left": 99.63,
+          "top": 943.7,
+          "right": 238.16,
+          "bottom": 964.18,
+          "width": 138.53,
+          "height": 20.48
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "✓ Evaluaciones",
+        "message": "<div> \"✓ Evaluaciones\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 11.389,
+        "lastSeen": 11.389,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          11.389
+        ]
+      },
+      {
+        "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(5)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 99.63,
+          "y": 1008.21,
+          "width": 117.99,
+          "height": 20.48
+        },
+        "time": 11.389,
+        "rect": {
+          "left": 99.63,
+          "top": 1008.21,
+          "right": 217.62,
+          "bottom": 1028.69,
+          "width": 117.99,
+          "height": 20.48
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "◷ Calendario",
+        "message": "<div> \"◷ Calendario\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 11.389,
+        "lastSeen": 11.389,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          11.389
+        ]
+      },
+      {
+        "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(6)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 144.59,
+          "y": 1321.55,
+          "width": 90.9,
+          "height": 39.94
+        },
+        "time": 11.389,
+        "rect": {
+          "left": 144.59,
+          "top": 1321.55,
+          "right": 235.49,
+          "bottom": 1361.49,
+          "width": 90.9,
+          "height": 39.94
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Ana Morales Estudiante",
+        "message": "<div> \"Ana Morales Estudiante\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 11.389,
+        "lastSeen": 11.389,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          11.389
+        ]
+      },
+      {
+        "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 97.58,
+          "y": 1333.84,
+          "width": 24.48,
+          "height": 19.46
+        },
+        "time": 11.389,
+        "rect": {
+          "left": 97.58,
+          "top": 1333.84,
+          "right": 122.06,
+          "bottom": 1353.3,
+          "width": 24.48,
+          "height": 19.46
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "AM",
+        "message": "<span> \"AM\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 11.389,
+        "lastSeen": 11.389,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          11.389
+        ]
+      },
+      {
+        "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 919.89,
+          "y": 726.61,
+          "width": 62.43,
+          "height": 20.48
+        },
+        "time": 11.389,
+        "rect": {
+          "left": 919.89,
+          "top": 726.61,
+          "right": 982.32,
+          "bottom": 747.09,
+          "width": 62.43,
+          "height": 20.48
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "🔔 AM",
+        "message": "<span> \"🔔 AM\" is outside the safe area: TikTok (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 11.389,
+        "lastSeen": 11.389,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          11.389
+        ]
+      },
+      {
+        "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 410.93,
+          "y": 1103.44,
+          "width": 375.71,
+          "height": 132.1
+        },
+        "time": 11.389,
+        "rect": {
+          "left": 410.93,
+          "top": 1103.44,
+          "right": 786.64,
+          "bottom": 1235.54,
+          "width": 375.71,
+          "height": 132.1
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "02 · ACTIVIDAD Cuestionario · 8 preguntas Contin",
+        "message": "<div> \"02 · ACTIVIDAD Cuestionario · 8 preguntas Contin\" is outside the safe area: TikTok (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 11.389,
+        "lastSeen": 11.389,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          11.389
+        ]
+      },
+      {
+        "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 352.34,
+          "y": 1411.66,
+          "width": 379.32,
+          "height": 15.36
+        },
+        "time": 11.389,
+        "rect": {
+          "left": 352.34,
+          "top": 1411.66,
+          "right": 731.66,
+          "bottom": 1427.02,
+          "width": 379.32,
+          "height": 15.36
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "VISTA DEMOSTRATIVA · INTERFAZ ILUSTRATIVA",
+        "message": "<div> \"VISTA DEMOSTRATIVA · INTERFAZ ILUSTRATIVA\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 11.389,
+        "lastSeen": 11.389,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          11.389
+        ]
+      },
+      {
+        "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 96,
+          "y": 1752,
+          "width": 511.5,
+          "height": 26
+        },
+        "time": 11.389,
+        "rect": {
+          "left": 96,
+          "top": 1752,
+          "right": 607.5,
+          "bottom": 1778,
+          "width": 511.5,
+          "height": 26
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "TU CONOCIMIENTO MERECE UN CAMPUS",
+        "message": "<div> \"TU CONOCIMIENTO MERECE UN CAMPUS\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 11.389,
+        "lastSeen": 11.389,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          11.389
+        ]
+      },
+      {
+        "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(4)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 753.13,
+          "y": 1750,
+          "width": 195.87,
+          "height": 21
+        },
+        "time": 11.389,
+        "rect": {
+          "left": 753.13,
+          "top": 1750,
+          "right": 949,
+          "bottom": 1771,
+          "width": 195.87,
+          "height": 21
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "DESLIZA Y DESCUBRE",
+        "message": "<div> \"DESLIZA Y DESCUBRE\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 11.389,
+        "lastSeen": 11.389,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          11.389
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 92,
+          "y": 150,
+          "width": 554.33,
+          "height": 29
+        },
+        "time": 15.944,
+        "rect": {
+          "left": 92,
+          "top": 150,
+          "right": 646.33,
+          "bottom": 179,
+          "width": 554.33,
+          "height": 29
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "ODISEACLOUD / AULAS VIRTUALES",
+        "message": "<div> \"ODISEACLOUD / AULAS VIRTUALES\" is outside the safe area: TikTok (top edge), Instagram Reels (top edge), YouTube Shorts (top edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 15.944,
+        "lastSeen": 20.5,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          15.944,
+          20.5
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > h1:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 92,
+          "y": 236.89,
+          "width": 530.52,
+          "height": 160.44
+        },
+        "time": 15.944,
+        "rect": {
+          "left": 92,
+          "top": 236.89,
+          "right": 622.52,
+          "bottom": 397.33,
+          "width": 530.52,
+          "height": 160.44
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Clases en vivo y progreso visible",
+        "message": "<h1> \"Clases en vivo y progreso visible\" is outside the safe area: TikTok (left and top edges), Instagram Reels (top edge), YouTube Shorts (top edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 15.944,
+        "lastSeen": 20.5,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          15.944,
+          20.5
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 96,
+          "y": 1752,
+          "width": 511.5,
+          "height": 26
+        },
+        "time": 15.944,
+        "rect": {
+          "left": 96,
+          "top": 1752,
+          "right": 607.5,
+          "bottom": 1778,
+          "width": 511.5,
+          "height": 26
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "TU CONOCIMIENTO MERECE UN CAMPUS",
+        "message": "<div> \"TU CONOCIMIENTO MERECE UN CAMPUS\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 15.944,
+        "lastSeen": 20.5,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          15.944,
+          20.5
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > p:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 96,
+          "y": 432,
+          "width": 634.59,
+          "height": 82.19
+        },
+        "time": 20.5,
+        "rect": {
+          "left": 96,
+          "top": 432,
+          "right": 730.59,
+          "bottom": 514.19,
+          "width": 634.59,
+          "height": 82.19
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Meet, Zoom y evaluaciones en una misma experienc",
+        "message": "<p> \"Meet, Zoom y evaluaciones en una misma experienc\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 20.5,
+        "lastSeen": 20.5,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          20.5
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > b:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 962.66,
+          "y": 647.79,
+          "width": 22.95,
+          "height": 20.17
+        },
+        "time": 20.5,
+        "rect": {
+          "left": 962.66,
+          "top": 647.79,
+          "right": 985.61,
+          "bottom": 667.96,
+          "width": 22.95,
+          "height": 20.17
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "•••",
+        "message": "<b> \"•••\" is outside the safe area: TikTok (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 20.5,
+        "lastSeen": 20.5,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          20.5
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 92.34,
+          "y": 723.41,
+          "width": 125.81,
+          "height": 29.24
+        },
+        "time": 20.5,
+        "rect": {
+          "left": 92.34,
+          "top": 723.41,
+          "right": 218.15,
+          "bottom": 752.65,
+          "width": 125.81,
+          "height": 29.24
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "MI CAMPUS ◈",
+        "message": "<div> \"MI CAMPUS ◈\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 20.5,
+        "lastSeen": 20.5,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          20.5
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 106.46,
+          "y": 814.15,
+          "width": 71.67,
+          "height": 20.16
+        },
+        "time": 20.5,
+        "rect": {
+          "left": 106.46,
+          "top": 814.15,
+          "right": 178.13,
+          "bottom": 834.31,
+          "width": 71.67,
+          "height": 20.16
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "▦ Inicio",
+        "message": "<div> \"▦ Inicio\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 20.5,
+        "lastSeen": 20.5,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          20.5
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 106.46,
+          "y": 879.68,
+          "width": 116.84,
+          "height": 20.16
+        },
+        "time": 20.5,
+        "rect": {
+          "left": 106.46,
+          "top": 879.68,
+          "right": 223.3,
+          "bottom": 899.84,
+          "width": 116.84,
+          "height": 20.16
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "▤ Mis cursos",
+        "message": "<div> \"▤ Mis cursos\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 20.5,
+        "lastSeen": 20.5,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          20.5
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(4)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 106.46,
+          "y": 945.21,
+          "width": 136.39,
+          "height": 20.17
+        },
+        "time": 20.5,
+        "rect": {
+          "left": 106.46,
+          "top": 945.21,
+          "right": 242.85,
+          "bottom": 965.38,
+          "width": 136.39,
+          "height": 20.17
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "✓ Evaluaciones",
+        "message": "<div> \"✓ Evaluaciones\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 20.5,
+        "lastSeen": 20.5,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          20.5
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(5)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 106.46,
+          "y": 1008.73,
+          "width": 116.16,
+          "height": 20.16
+        },
+        "time": 20.5,
+        "rect": {
+          "left": 106.46,
+          "top": 1008.73,
+          "right": 222.62,
+          "bottom": 1028.89,
+          "width": 116.16,
+          "height": 20.16
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "◷ Calendario",
+        "message": "<div> \"◷ Calendario\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 20.5,
+        "lastSeen": 20.5,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          20.5
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(6)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 150.72,
+          "y": 1317.24,
+          "width": 89.5,
+          "height": 39.32
+        },
+        "time": 20.5,
+        "rect": {
+          "left": 150.72,
+          "top": 1317.24,
+          "right": 240.22,
+          "bottom": 1356.56,
+          "width": 89.5,
+          "height": 39.32
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Ana Morales Estudiante",
+        "message": "<div> \"Ana Morales Estudiante\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 20.5,
+        "lastSeen": 20.5,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          20.5
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 104.44,
+          "y": 1329.34,
+          "width": 24.1,
+          "height": 19.15
+        },
+        "time": 20.5,
+        "rect": {
+          "left": 104.44,
+          "top": 1329.34,
+          "right": 128.54,
+          "bottom": 1348.49,
+          "width": 24.1,
+          "height": 19.15
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "AM",
+        "message": "<span> \"AM\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 20.5,
+        "lastSeen": 20.5,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          20.5
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 914.06,
+          "y": 731.47,
+          "width": 61.47,
+          "height": 20.17
+        },
+        "time": 20.5,
+        "rect": {
+          "left": 914.06,
+          "top": 731.47,
+          "right": 975.53,
+          "bottom": 751.64,
+          "width": 61.47,
+          "height": 20.17
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "🔔 AM",
+        "message": "<span> \"🔔 AM\" is outside the safe area: TikTok (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 20.5,
+        "lastSeen": 20.5,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          20.5
+        ]
+      },
+      {
+        "selector": "div.meetbar > strong:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 645.48,
+          "y": 1182.14,
+          "width": 165.11,
+          "height": 17.14
+        },
+        "time": 20.5,
+        "rect": {
+          "left": 645.48,
+          "top": 1182.14,
+          "right": 810.59,
+          "bottom": 1199.28,
+          "width": 165.11,
+          "height": 17.14
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "EN VIVO · MEET / ZOOM",
+        "message": "<strong> \"EN VIVO · MEET / ZOOM\" is outside the safe area: TikTok (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 20.5,
+        "lastSeen": 20.5,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          20.5
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 412.95,
+          "y": 1344.46,
+          "width": 202.71,
+          "height": 124.01
+        },
+        "time": 20.5,
+        "rect": {
+          "left": 412.95,
+          "top": 1344.46,
+          "right": 615.66,
+          "bottom": 1468.47,
+          "width": 202.71,
+          "height": 124.01
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "PROGRESO DEL GRUPO Avance general · 82%",
+        "message": "<div> \"PROGRESO DEL GRUPO Avance general · 82%\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 20.5,
+        "lastSeen": 20.5,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          20.5
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > h3:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 412.95,
+          "y": 1380.76,
+          "width": 225.29,
+          "height": 29.23
+        },
+        "time": 20.5,
+        "rect": {
+          "left": 412.95,
+          "top": 1380.76,
+          "right": 638.24,
+          "bottom": 1409.99,
+          "width": 225.29,
+          "height": 29.23
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Evaluaciones al día",
+        "message": "<h3> \"Evaluaciones al día\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 20.5,
+        "lastSeen": 20.5,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          20.5
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 355.26,
+          "y": 1405.96,
+          "width": 373.48,
+          "height": 15.12
+        },
+        "time": 20.5,
+        "rect": {
+          "left": 355.26,
+          "top": 1405.96,
+          "right": 728.74,
+          "bottom": 1421.08,
+          "width": 373.48,
+          "height": 15.12
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "VISTA DEMOSTRATIVA · INTERFAZ ILUSTRATIVA",
+        "message": "<div> \"VISTA DEMOSTRATIVA · INTERFAZ ILUSTRATIVA\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 20.5,
+        "lastSeen": 20.5,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          20.5
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(4)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 753.13,
+          "y": 1750,
+          "width": 195.87,
+          "height": 21
+        },
+        "time": 20.5,
+        "rect": {
+          "left": 753.13,
+          "top": 1750,
+          "right": 949,
+          "bottom": 1771,
+          "width": 195.87,
+          "height": 21
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "DESLIZA Y DESCUBRE",
+        "message": "<div> \"DESLIZA Y DESCUBRE\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 20.5,
+        "lastSeen": 20.5,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          20.5
+        ]
+      },
+      {
+        "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 92,
+          "y": 150,
+          "width": 554.33,
+          "height": 29
+        },
+        "time": 25.056,
+        "rect": {
+          "left": 92,
+          "top": 150,
+          "right": 646.33,
+          "bottom": 179,
+          "width": 554.33,
+          "height": 29
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "ODISEACLOUD / AULAS VIRTUALES",
+        "message": "<div> \"ODISEACLOUD / AULAS VIRTUALES\" is outside the safe area: TikTok (top edge), Instagram Reels (top edge), YouTube Shorts (top edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 25.056,
+        "lastSeen": 29.611,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          25.056,
+          29.611
+        ]
+      },
+      {
+        "selector": "#scene4 > div:nth-of-type(1) > h1:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 92,
+          "y": 228,
+          "width": 413.42,
+          "height": 160.44
+        },
+        "time": 25.056,
+        "rect": {
+          "left": 92,
+          "top": 228,
+          "right": 505.42,
+          "bottom": 388.44,
+          "width": 413.42,
+          "height": 160.44
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Certificados verificables",
+        "message": "<h1> \"Certificados verificables\" is outside the safe area: TikTok (left and top edges), Instagram Reels (top edge), YouTube Shorts (top edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 25.056,
+        "lastSeen": 29.611,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          25.056,
+          29.611
+        ]
+      },
+      {
+        "selector": "#scene4 > div:nth-of-type(1) > p:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 96,
+          "y": 432,
+          "width": 602.88,
+          "height": 39
+        },
+        "time": 25.056,
+        "rect": {
+          "left": 96,
+          "top": 432,
+          "right": 698.88,
+          "bottom": 471,
+          "width": 602.88,
+          "height": 39
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Reconoce los logros de tus estudiantes.",
+        "message": "<p> \"Reconoce los logros de tus estudiantes.\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 25.056,
+        "lastSeen": 29.611,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          25.056,
+          29.611
+        ]
+      },
+      {
+        "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > b:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 959.23,
+          "y": 651,
+          "width": 22.77,
+          "height": 20
+        },
+        "time": 25.056,
+        "rect": {
+          "left": 959.23,
+          "top": 651,
+          "right": 982,
+          "bottom": 671,
+          "width": 22.77,
+          "height": 20
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "•••",
+        "message": "<b> \"•••\" is outside the safe area: TikTok (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 25.056,
+        "lastSeen": 29.611,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          25.056,
+          29.611
+        ]
+      },
+      {
+        "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 96,
+          "y": 726,
+          "width": 124.78,
+          "height": 29
+        },
+        "time": 25.056,
+        "rect": {
+          "left": 96,
+          "top": 726,
+          "right": 220.78,
+          "bottom": 755,
+          "width": 124.78,
+          "height": 29
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "MI CAMPUS ◈",
+        "message": "<div> \"MI CAMPUS ◈\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 25.056,
+        "lastSeen": 29.611,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          25.056,
+          29.611
+        ]
+      },
+      {
+        "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 110,
+          "y": 816,
+          "width": 71.09,
+          "height": 20
+        },
+        "time": 25.056,
+        "rect": {
+          "left": 110,
+          "top": 816,
+          "right": 181.09,
+          "bottom": 836,
+          "width": 71.09,
+          "height": 20
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "▦ Inicio",
+        "message": "<div> \"▦ Inicio\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 25.056,
+        "lastSeen": 29.611,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          25.056,
+          29.611
+        ]
+      },
+      {
+        "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 110,
+          "y": 881,
+          "width": 115.89,
+          "height": 20
+        },
+        "time": 25.056,
+        "rect": {
+          "left": 110,
+          "top": 881,
+          "right": 225.89,
+          "bottom": 901,
+          "width": 115.89,
+          "height": 20
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "▤ Mis cursos",
+        "message": "<div> \"▤ Mis cursos\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 25.056,
+        "lastSeen": 29.611,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          25.056,
+          29.611
+        ]
+      },
+      {
+        "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(4)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 110,
+          "y": 946,
+          "width": 135.28,
+          "height": 20
+        },
+        "time": 25.056,
+        "rect": {
+          "left": 110,
+          "top": 946,
+          "right": 245.28,
+          "bottom": 966,
+          "width": 135.28,
+          "height": 20
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "✓ Evaluaciones",
+        "message": "<div> \"✓ Evaluaciones\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 25.056,
+        "lastSeen": 29.611,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          25.056,
+          29.611
+        ]
+      },
+      {
+        "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(5)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 110,
+          "y": 1009,
+          "width": 115.22,
+          "height": 20
+        },
+        "time": 25.056,
+        "rect": {
+          "left": 110,
+          "top": 1009,
+          "right": 225.22,
+          "bottom": 1029,
+          "width": 115.22,
+          "height": 20
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "◷ Calendario",
+        "message": "<div> \"◷ Calendario\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 25.056,
+        "lastSeen": 29.611,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          25.056,
+          29.611
+        ]
+      },
+      {
+        "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(6)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 153.91,
+          "y": 1315,
+          "width": 88.76,
+          "height": 39
+        },
+        "time": 25.056,
+        "rect": {
+          "left": 153.91,
+          "top": 1315,
+          "right": 242.67,
+          "bottom": 1354,
+          "width": 88.76,
+          "height": 39
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Ana Morales Estudiante",
+        "message": "<div> \"Ana Morales Estudiante\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 25.056,
+        "lastSeen": 29.611,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          25.056,
+          29.611
+        ]
+      },
+      {
+        "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 108,
+          "y": 1327,
+          "width": 23.91,
+          "height": 19
+        },
+        "time": 25.056,
+        "rect": {
+          "left": 108,
+          "top": 1327,
+          "right": 131.91,
+          "bottom": 1346,
+          "width": 23.91,
+          "height": 19
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "AM",
+        "message": "<span> \"AM\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 25.056,
+        "lastSeen": 29.611,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          25.056,
+          29.611
+        ]
+      },
+      {
+        "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 911.03,
+          "y": 734,
+          "width": 60.97,
+          "height": 20
+        },
+        "time": 25.056,
+        "rect": {
+          "left": 911.03,
+          "top": 734,
+          "right": 972,
+          "bottom": 754,
+          "width": 60.97,
+          "height": 20
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "🔔 AM",
+        "message": "<span> \"🔔 AM\" is outside the safe area: TikTok (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 25.056,
+        "lastSeen": 29.611,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          25.056,
+          29.611
+        ]
+      },
+      {
+        "selector": "div.certificate",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 598.81,
+          "y": 899,
+          "width": 164.38,
+          "height": 399.78
+        },
+        "time": 25.056,
+        "rect": {
+          "left": 598.81,
+          "top": 899,
+          "right": 763.19,
+          "bottom": 1298.78,
+          "width": 164.38,
+          "height": 399.78
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "ODISEACLOUD · CAMPUS Verificación QR",
+        "message": "<div> \"ODISEACLOUD · CAMPUS Verificación QR\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 25.056,
+        "lastSeen": 29.611,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          25.056,
+          29.611
+        ]
+      },
+      {
+        "selector": "div.certificate > h2:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 566.69,
+          "y": 944,
+          "width": 228.61,
+          "height": 98
+        },
+        "time": 25.056,
+        "rect": {
+          "left": 566.69,
+          "top": 944,
+          "right": 795.3,
+          "bottom": 1042,
+          "width": 228.61,
+          "height": 98
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Certificadode finalización",
+        "message": "<h2> \"Certificadode finalización\" is outside the safe area: TikTok (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 25.056,
+        "lastSeen": 29.611,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          25.056,
+          29.611
+        ]
+      },
+      {
+        "selector": "div.certificate > p:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 570.61,
+          "y": 1219,
+          "width": 220.77,
+          "height": 42.39
+        },
+        "time": 25.056,
+        "rect": {
+          "left": 570.61,
+          "top": 1219,
+          "right": 791.38,
+          "bottom": 1261.39,
+          "width": 220.77,
+          "height": 42.39
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Aprendizaje que se convierteen nuevas oportunida",
+        "message": "<p> \"Aprendizaje que se convierteen nuevas oportunida\" is outside the safe area: TikTok (right and bottom edges), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 25.056,
+        "lastSeen": 29.611,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          25.056,
+          29.611
+        ]
+      },
+      {
+        "selector": "div.qr",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 621.28,
+          "y": 1306.78,
+          "width": 119.44,
+          "height": 102
+        },
+        "time": 25.056,
+        "rect": {
+          "left": 621.28,
+          "top": 1306.78,
+          "right": 740.72,
+          "bottom": 1408.78,
+          "width": 119.44,
+          "height": 102
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "▦ ▦ ▦▦ ▢ ▦▦ ▦ ▦",
+        "message": "<div> \"▦ ▦ ▦▦ ▢ ▦▦ ▦ ▦\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 25.056,
+        "lastSeen": 29.611,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          25.056,
+          29.611
+        ]
+      },
+      {
+        "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 356.78,
+          "y": 1403,
+          "width": 370.44,
+          "height": 15
+        },
+        "time": 25.056,
+        "rect": {
+          "left": 356.78,
+          "top": 1403,
+          "right": 727.22,
+          "bottom": 1418,
+          "width": 370.44,
+          "height": 15
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "VISTA DEMOSTRATIVA · INTERFAZ ILUSTRATIVA",
+        "message": "<div> \"VISTA DEMOSTRATIVA · INTERFAZ ILUSTRATIVA\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 25.056,
+        "lastSeen": 29.611,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          25.056,
+          29.611
+        ]
+      },
+      {
+        "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 96,
+          "y": 1752,
+          "width": 511.5,
+          "height": 26
+        },
+        "time": 25.056,
+        "rect": {
+          "left": 96,
+          "top": 1752,
+          "right": 607.5,
+          "bottom": 1778,
+          "width": 511.5,
+          "height": 26
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "TU CONOCIMIENTO MERECE UN CAMPUS",
+        "message": "<div> \"TU CONOCIMIENTO MERECE UN CAMPUS\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 25.056,
+        "lastSeen": 29.611,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          25.056,
+          29.611
+        ]
+      },
+      {
+        "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(4)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 751.72,
+          "y": 1749.85,
+          "width": 198.68,
+          "height": 21.3
+        },
+        "time": 25.056,
+        "rect": {
+          "left": 751.72,
+          "top": 1749.85,
+          "right": 950.4,
+          "bottom": 1771.15,
+          "width": 198.68,
+          "height": 21.3
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "DESLIZA Y DESCUBRE",
+        "message": "<div> \"DESLIZA Y DESCUBRE\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 25.056,
+        "lastSeen": 29.611,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          25.056,
+          29.611
+        ]
+      },
+      {
+        "selector": "#scene5 > div:nth-of-type(1) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene5.html",
+        "bbox": {
+          "x": 92,
+          "y": 150,
+          "width": 554.33,
+          "height": 29
+        },
+        "time": 34.167,
+        "rect": {
+          "left": 92,
+          "top": 150,
+          "right": 646.33,
+          "bottom": 179,
+          "width": 554.33,
+          "height": 29
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "ODISEACLOUD / AULAS VIRTUALES",
+        "message": "<div> \"ODISEACLOUD / AULAS VIRTUALES\" is outside the safe area: TikTok (top edge), Instagram Reels (top edge), YouTube Shorts (top edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 34.167,
+        "lastSeen": 38.722,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          34.167,
+          38.722
+        ]
+      },
+      {
+        "selector": "#scene5 > div:nth-of-type(1) > h1:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene5.html",
+        "bbox": {
+          "x": 92,
+          "y": 228,
+          "width": 784.13,
+          "height": 160.44
+        },
+        "time": 34.167,
+        "rect": {
+          "left": 92,
+          "top": 228,
+          "right": 876.13,
+          "bottom": 388.44,
+          "width": 784.13,
+          "height": 160.44
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Tu aula virtual, desde S/ 1,850",
+        "message": "<h1> \"Tu aula virtual, desde S/ 1,850\" is outside the safe area: TikTok (left and top edges), Instagram Reels (top edge), YouTube Shorts (top edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 34.167,
+        "lastSeen": 38.722,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          34.167,
+          38.722
+        ]
+      },
+      {
+        "selector": "#scene5 > div:nth-of-type(1) > p:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene5.html",
+        "bbox": {
+          "x": 96,
+          "y": 432,
+          "width": 745.11,
+          "height": 39
+        },
+        "time": 34.167,
+        "rect": {
+          "left": 96,
+          "top": 432,
+          "right": 841.11,
+          "bottom": 471,
+          "width": 745.11,
+          "height": 39
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Precio inicial por el primer año. Cotiza el alca",
+        "message": "<p> \"Precio inicial por el primer año. Cotiza el alca\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 34.167,
+        "lastSeen": 38.722,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          34.167,
+          38.722
+        ]
+      },
+      {
+        "selector": "#scene5 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > b:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene5.html",
+        "bbox": {
+          "x": 965.08,
+          "y": 645.53,
+          "width": 23.08,
+          "height": 20.28
+        },
+        "time": 34.167,
+        "rect": {
+          "left": 965.08,
+          "top": 645.53,
+          "right": 988.16,
+          "bottom": 665.81,
+          "width": 23.08,
+          "height": 20.28
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "•••",
+        "message": "<b> \"•••\" is outside the safe area: TikTok (right edge), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 34.167,
+        "lastSeen": 38.722,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          34.167,
+          38.722
+        ]
+      },
+      {
+        "selector": "#scene5 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene5.html",
+        "bbox": {
+          "x": 89.76,
+          "y": 721.58,
+          "width": 126.52,
+          "height": 29.4
+        },
+        "time": 34.167,
+        "rect": {
+          "left": 89.76,
+          "top": 721.58,
+          "right": 216.28,
+          "bottom": 750.98,
+          "width": 126.52,
+          "height": 29.4
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "MI CAMPUS ◈",
+        "message": "<div> \"MI CAMPUS ◈\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 34.167,
+        "lastSeen": 38.722,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          34.167,
+          38.722
+        ]
+      },
+      {
+        "selector": "#scene5 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene5.html",
+        "bbox": {
+          "x": 103.95,
+          "y": 812.84,
+          "width": 72.09,
+          "height": 20.28
+        },
+        "time": 34.167,
+        "rect": {
+          "left": 103.95,
+          "top": 812.84,
+          "right": 176.04,
+          "bottom": 833.12,
+          "width": 72.09,
+          "height": 20.28
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "▦ Inicio",
+        "message": "<div> \"▦ Inicio\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 34.167,
+        "lastSeen": 38.722,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          34.167,
+          38.722
+        ]
+      },
+      {
+        "selector": "#scene5 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene5.html",
+        "bbox": {
+          "x": 103.95,
+          "y": 878.75,
+          "width": 117.52,
+          "height": 20.28
+        },
+        "time": 34.167,
+        "rect": {
+          "left": 103.95,
+          "top": 878.75,
+          "right": 221.47,
+          "bottom": 899.03,
+          "width": 117.52,
+          "height": 20.28
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "▤ Mis cursos",
+        "message": "<div> \"▤ Mis cursos\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 34.167,
+        "lastSeen": 38.722,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          34.167,
+          38.722
+        ]
+      },
+      {
+        "selector": "#scene5 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(4)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene5.html",
+        "bbox": {
+          "x": 103.95,
+          "y": 944.66,
+          "width": 137.18,
+          "height": 20.28
+        },
+        "time": 34.167,
+        "rect": {
+          "left": 103.95,
+          "top": 944.66,
+          "right": 241.13,
+          "bottom": 964.94,
+          "width": 137.18,
+          "height": 20.28
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "✓ Evaluaciones",
+        "message": "<div> \"✓ Evaluaciones\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 34.167,
+        "lastSeen": 38.722,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          34.167,
+          38.722
+        ]
+      },
+      {
+        "selector": "#scene5 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(5)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene5.html",
+        "bbox": {
+          "x": 103.95,
+          "y": 1008.54,
+          "width": 116.83,
+          "height": 20.28
+        },
+        "time": 34.167,
+        "rect": {
+          "left": 103.95,
+          "top": 1008.54,
+          "right": 220.78,
+          "bottom": 1028.82,
+          "width": 116.83,
+          "height": 20.28
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "◷ Calendario",
+        "message": "<div> \"◷ Calendario\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 34.167,
+        "lastSeen": 38.722,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          34.167,
+          38.722
+        ]
+      },
+      {
+        "selector": "#scene5 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(6)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene5.html",
+        "bbox": {
+          "x": 148.47,
+          "y": 1318.82,
+          "width": 90.01,
+          "height": 39.55
+        },
+        "time": 34.167,
+        "rect": {
+          "left": 148.47,
+          "top": 1318.82,
+          "right": 238.48,
+          "bottom": 1358.37,
+          "width": 90.01,
+          "height": 39.55
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Ana Morales Estudiante",
+        "message": "<div> \"Ana Morales Estudiante\" is outside the safe area: TikTok (bottom edge), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 34.167,
+        "lastSeen": 38.722,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          34.167,
+          38.722
+        ]
+      }
+    ],
+    "duration": 41,
+    "samples": [
+      2.278,
+      6.833,
+      11.389,
+      15.944,
+      20.5,
+      25.056,
+      29.611,
+      34.167,
+      38.722
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 94,
+    "truncated": true
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 23,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.86:1; WCAG AA requires 4.5:1.",
+        "text": "Panel del estudiante 🔔   AM",
+        "fg": "rgb(105,128,144)",
+        "bg": "rgb(244,248,250)",
+        "ratio": 3.86,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(96,116,131)",
+        "large": false,
+        "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > main > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 389.8023986816406,
+          "y": 724.587890625,
+          "width": 582.756591796875,
+          "height": 47.06109619140625
+        },
+        "time": 2.278,
+        "times": [
+          2.278
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 2.72:1; WCAG AA requires 3:1.",
+        "text": "◈",
+        "fg": "rgb(42,175,157)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 2.72,
+        "requiredRatio": 3,
+        "suggestedColor": "rgb(40,166,149)",
+        "large": true,
+        "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > main > div:nth-of-type(2) > span",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 417.8387756347656,
+          "y": 891.8049926757812,
+          "width": 25.1107177734375,
+          "height": 36.04681396484375
+        },
+        "time": 2.278,
+        "times": [
+          2.278
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.53:1; WCAG AA requires 4.5:1.",
+        "text": "CURSO DESTACADO",
+        "fg": "rgb(53,140,135)",
+        "bg": "rgb(229,244,242)",
+        "ratio": 3.53,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(46,121,117)",
+        "large": false,
+        "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(2) > main > div:nth-of-type(2) > div:nth-of-type(1) > small",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 439.8674011230469,
+          "y": 1091.063720703125,
+          "width": 482.6266174316406,
+          "height": 16.020751953125
+        },
+        "time": 2.278,
+        "times": [
+          2.278
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 4.4:1; WCAG AA requires 4.5:1.",
+        "text": "VISTA DEMOSTRATIVA · INTERFAZ ILUSTRATIVA",
+        "fg": "rgb(74,117,135)",
+        "bg": "rgb(234,241,245)",
+        "ratio": 4.4,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(73,115,133)",
+        "large": false,
+        "selector": "div > div:nth-of-type(1) > div > div:nth-of-type(2) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 77.39679718017578,
+          "y": 1385.44580078125,
+          "width": 929.2063598632812,
+          "height": 91.118408203125
+        },
+        "time": 2.278,
+        "times": [
+          2.278
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.86:1; WCAG AA requires 4.5:1.",
+        "text": "Panel del estudiante 🔔   AM",
+        "fg": "rgb(105,128,144)",
+        "bg": "rgb(244,248,250)",
+        "ratio": 3.86,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(96,116,131)",
+        "large": false,
+        "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > main > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 386.35198974609375,
+          "y": 717.3919677734375,
+          "width": 595.968017578125,
+          "height": 48.12799072265625
+        },
+        "time": 11.389,
+        "times": [
+          11.389
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 4:1; WCAG AA requires 4.5:1.",
+        "text": "01 · INTRODUCCIÓN",
+        "fg": "rgb(53,140,135)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 4,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(49,130,125)",
+        "large": false,
+        "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > main > div:nth-of-type(2) > b",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 410.9280090332031,
+          "y": 884.303955078125,
+          "width": 177.93600463867188,
+          "height": 20.47998046875
+        },
+        "time": 11.389,
+        "times": [
+          11.389
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 4.18:1; WCAG AA requires 4.5:1.",
+        "text": "Video · 12 min",
+        "fg": "rgb(105,127,141)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 4.18,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(100,121,134)",
+        "large": false,
+        "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > main > div:nth-of-type(2) > span",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 410.9280090332031,
+          "y": 959.0559692382812,
+          "width": 107.88803100585938,
+          "height": 20.47998046875
+        },
+        "time": 11.389,
+        "times": [
+          11.389
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 4.18:1; WCAG AA requires 4.5:1.",
+        "text": "68% completado",
+        "fg": "rgb(105,127,141)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 4.18,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(100,121,134)",
+        "large": false,
+        "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > main > div:nth-of-type(2) > small",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 410.9280090332031,
+          "y": 1022.5439453125,
+          "width": 110.46401977539062,
+          "height": 16.384033203125
+        },
+        "time": 11.389,
+        "times": [
+          11.389
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 4:1; WCAG AA requires 4.5:1.",
+        "text": "02 · ACTIVIDAD",
+        "fg": "rgb(53,140,135)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 4,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(49,130,125)",
+        "large": false,
+        "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > main > div:nth-of-type(3) > b",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 410.9280090332031,
+          "y": 1103.43994140625,
+          "width": 140.17599487304688,
+          "height": 20.47998046875
+        },
+        "time": 11.389,
+        "times": [
+          11.389
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 4.18:1; WCAG AA requires 4.5:1.",
+        "text": "Cuestionario · 8 preguntas",
+        "fg": "rgb(105,127,141)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 4.18,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(100,121,134)",
+        "large": false,
+        "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(2) > main > div:nth-of-type(3) > span",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 410.9280090332031,
+          "y": 1215.055908203125,
+          "width": 204.87997436523438,
+          "height": 20.47998046875
+        },
+        "time": 11.389,
+        "times": [
+          11.389
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 4.4:1; WCAG AA requires 4.5:1.",
+        "text": "VISTA DEMOSTRATIVA · INTERFAZ ILUSTRATIVA",
+        "fg": "rgb(74,117,135)",
+        "bg": "rgb(234,241,245)",
+        "ratio": 4.4,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(73,115,133)",
+        "large": false,
+        "selector": "div > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 66.86397552490234,
+          "y": 1393.23193359375,
+          "width": 950.2720947265625,
+          "height": 93.18408203125
+        },
+        "time": 11.389,
+        "times": [
+          11.389
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.86:1; WCAG AA requires 4.5:1.",
+        "text": "Panel del estudiante 🔔   AM",
+        "fg": "rgb(105,128,144)",
+        "bg": "rgb(244,248,250)",
+        "ratio": 3.86,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(96,116,131)",
+        "large": false,
+        "selector": "div > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(2) > main > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 388.75360107421875,
+          "y": 722.4005737304688,
+          "width": 586.7723999023438,
+          "height": 47.38543701171875
+        },
+        "time": 20.5,
+        "times": [
+          20.5
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 4:1; WCAG AA requires 4.5:1.",
+        "text": "PROGRESO DEL GRUPO",
+        "fg": "rgb(53,140,135)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 4,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(49,130,125)",
+        "large": false,
+        "selector": "div > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(2) > main > div:nth-of-type(3) > b",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 412.95037841796875,
+          "y": 1344.4599609375,
+          "width": 202.71124267578125,
+          "height": 20.1640625
+        },
+        "time": 20.5,
+        "times": [
+          20.5
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 4.18:1; WCAG AA requires 4.5:1.",
+        "text": "Avance general · 82%",
+        "fg": "rgb(105,127,141)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 4.18,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(100,121,134)",
+        "large": false,
+        "selector": "div > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(2) > main > div:nth-of-type(3) > small",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 412.95037841796875,
+          "y": 1452.33740234375,
+          "width": 139.49395751953125,
+          "height": 16.131103515625
+        },
+        "time": 20.5,
+        "times": [
+          20.5
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 4.4:1; WCAG AA requires 4.5:1.",
+        "text": "VISTA DEMOSTRATIVA · INTERFAZ ILUSTRATIVA",
+        "fg": "rgb(74,117,135)",
+        "bg": "rgb(234,241,245)",
+        "ratio": 4.4,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(73,115,133)",
+        "large": false,
+        "selector": "div > div:nth-of-type(3) > div > div:nth-of-type(2) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 74.19517517089844,
+          "y": 1387.8126220703125,
+          "width": 935.609619140625,
+          "height": 91.7462158203125
+        },
+        "time": 20.5,
+        "times": [
+          20.5
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.86:1; WCAG AA requires 4.5:1.",
+        "text": "Panel del estudiante 🔔   AM",
+        "fg": "rgb(105,128,144)",
+        "bg": "rgb(244,248,250)",
+        "ratio": 3.86,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(96,116,131)",
+        "large": false,
+        "selector": "div > div:nth-of-type(4) > div > div:nth-of-type(2) > div:nth-of-type(2) > main > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 390,
+          "y": 725,
+          "width": 582,
+          "height": 47
+        },
+        "time": 29.611,
+        "times": [
+          29.611
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 4.37:1; WCAG AA requires 4.5:1.",
+        "text": "VISTA DEMOSTRATIVA · INTERFAZ ILUSTRATIVA",
+        "fg": "rgb(74,117,135)",
+        "bg": "rgb(234,241,236)",
+        "ratio": 4.37,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(72,114,132)",
+        "large": false,
+        "selector": "div > div:nth-of-type(4) > div > div:nth-of-type(2) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 78,
+          "y": 1385,
+          "width": 928,
+          "height": 91
+        },
+        "time": 29.611,
+        "times": [
+          29.611
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.86:1; WCAG AA requires 4.5:1.",
+        "text": "Panel del estudiante 🔔   AM",
+        "fg": "rgb(105,128,144)",
+        "bg": "rgb(244,248,250)",
+        "ratio": 3.86,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(96,116,131)",
+        "large": false,
+        "selector": "div > div:nth-of-type(5) > div > div:nth-of-type(2) > div:nth-of-type(2) > main > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene5.html",
+        "bbox": {
+          "x": 390,
+          "y": 725,
+          "width": 582,
+          "height": 47
+        },
+        "time": 38.722,
+        "times": [
+          38.722
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.83:1; WCAG AA requires 4.5:1.",
+        "text": "PRECIO DE LANZAMIENTO",
+        "fg": "rgb(54,143,133)",
+        "bg": "rgb(249,255,255)",
+        "ratio": 3.83,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(49,130,121)",
+        "large": false,
+        "selector": "div > div:nth-of-type(5) > div > div:nth-of-type(2) > div:nth-of-type(2) > main > div:nth-of-type(2) > small:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene5.html",
+        "bbox": {
+          "x": 416,
+          "y": 896,
+          "width": 530,
+          "height": 16
+        },
+        "time": 38.722,
+        "times": [
+          38.722
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 4.42:1; WCAG AA requires 4.5:1.",
+        "text": "desde · primer año",
+        "fg": "rgb(97,123,137)",
+        "bg": "rgb(249,255,255)",
+        "ratio": 4.42,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(95,121,135)",
+        "large": false,
+        "selector": "div > div:nth-of-type(5) > div > div:nth-of-type(2) > div:nth-of-type(2) > main > div:nth-of-type(2) > span",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene5.html",
+        "bbox": {
+          "x": 609.96875,
+          "y": 1011,
+          "width": 142.0625,
+          "height": 20
+        },
+        "time": 38.722,
+        "times": [
+          38.722
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 3.15:1; WCAG AA requires 4.5:1.",
+        "text": "CONSULTA TU PROYECTO →",
+        "fg": "rgb(255,255,255)",
+        "bg": "rgb(19,163,142)",
+        "ratio": 3.15,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(42,42,42)",
+        "large": false,
+        "selector": "div > div:nth-of-type(5) > div > div:nth-of-type(2) > div:nth-of-type(2) > main > div:nth-of-type(2) > button",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene5.html",
+        "bbox": {
+          "x": 416,
+          "y": 1153,
+          "width": 530,
+          "height": 52
+        },
+        "time": 38.722,
+        "times": [
+          38.722
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 4.28:1; WCAG AA requires 4.5:1.",
+        "text": "Capacidad, soporte y renovación según propuesta",
+        "fg": "rgb(102,125,136)",
+        "bg": "rgb(249,255,255)",
+        "ratio": 4.28,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(99,121,132)",
+        "large": false,
+        "selector": "div > div:nth-of-type(5) > div > div:nth-of-type(2) > div:nth-of-type(2) > main > div:nth-of-type(2) > small:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene5.html",
+        "bbox": {
+          "x": 416,
+          "y": 1223,
+          "width": 530,
+          "height": 15
+        },
+        "time": 38.722,
+        "times": [
+          38.722
+        ]
+      },
+      {
+        "code": "contrast_aa_failure",
+        "severity": "warning",
+        "message": "Contrast is 4.4:1; WCAG AA requires 4.5:1.",
+        "text": "VISTA DEMOSTRATIVA · INTERFAZ ILUSTRATIVA",
+        "fg": "rgb(74,117,135)",
+        "bg": "rgb(234,241,245)",
+        "ratio": 4.4,
+        "requiredRatio": 4.5,
+        "suggestedColor": "rgb(73,115,133)",
+        "large": false,
+        "selector": "div > div:nth-of-type(5) > div > div:nth-of-type(2) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene5.html",
+        "bbox": {
+          "x": 78,
+          "y": 1385,
+          "width": 928,
+          "height": 91
+        },
+        "time": 38.722,
+        "times": [
+          38.722
+        ]
+      }
+    ],
+    "enabled": true,
+    "samples": [
+      2.278,
+      11.389,
+      20.5,
+      29.611,
+      38.722
+    ],
+    "checked": 129,
+    "passed": 106
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 5,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 22 text elements stay under it for 0.5 s or more, the smallest \"VISTA DEMOSTRATIVA · INTERFAZ ILUSTRA...\" at 12 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "VISTA DEMOSTRATIVA · INTERFAZ ILUSTRATIVA",
+        "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 360.71,
+          "y": 1425.36,
+          "width": 362.58,
+          "height": 14.68
+        },
+        "time": 0.75,
+        "times": [
+          0,
+          0,
+          0.75,
+          0.75,
+          0.75,
+          0.75,
+          0.75,
+          0.75,
+          0.75,
+          0.75,
+          0.75,
+          0.75,
+          0.75,
+          0.75,
+          0.75,
+          0.75,
+          0.75,
+          0.75,
+          0.75,
+          0.75,
+          0.75,
+          1.375
+        ],
+        "fontPx": 11.75,
+        "floorPx": 28,
+        "seconds": 7.125,
+        "elements": [
+          {
+            "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+            "text": "VISTA DEMOSTRATIVA · INTERFAZ ILUSTRATIVA",
+            "fontPx": 11.75,
+            "time": 0.75,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(6) > small:nth-of-type(1)",
+            "text": "Estudiante",
+            "fontPx": 12.24,
+            "time": 0.75,
+            "seconds": 7.125
+          },
+          {
+            "selector": "div.welcome-course > small:nth-of-type(1)",
+            "text": "CURSO DESTACADO",
+            "fontPx": 13.05,
+            "time": 0.75,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(6)",
+            "text": "Ana Morales",
+            "fontPx": 14.68,
+            "time": 0.75,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1)",
+            "text": "AM",
+            "fontPx": 14.68,
+            "time": 0.75,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(1)",
+            "text": "Panel del estudiante",
+            "fontPx": 15.66,
+            "time": 0.75,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "🔔 AM",
+            "fontPx": 15.66,
+            "time": 0.75,
+            "seconds": 7.125
+          },
+          {
+            "selector": "div.welcome > b:nth-of-type(1)",
+            "text": "MI CAMPUS",
+            "fontPx": 15.66,
+            "time": 0.75,
+            "seconds": 7.125
+          },
+          {
+            "selector": "div.welcome-course > span:nth-of-type(1)",
+            "text": "4 módulos · 12 lecciones",
+            "fontPx": 15.66,
+            "time": 0.75,
+            "seconds": 7.125
+          },
+          {
+            "selector": "div.welcome > div:nth-of-type(2)",
+            "text": "LECCIONES",
+            "fontPx": 15.66,
+            "time": 0.75,
+            "seconds": 7.125
+          },
+          {
+            "selector": "div.welcome > div:nth-of-type(3)",
+            "text": "TAREAS",
+            "fontPx": 15.66,
+            "time": 0.75,
+            "seconds": 7.125
+          },
+          {
+            "selector": "div.welcome > div:nth-of-type(4)",
+            "text": "PROGRESO",
+            "fontPx": 15.66,
+            "time": 0.75,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(4)",
+            "text": "DESLIZA Y DESCUBRE",
+            "fontPx": 15.94,
+            "time": 1.375,
+            "seconds": 6.5
+          },
+          {
+            "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "campus.tuinstitucion.edu.pe",
+            "fontPx": 16.64,
+            "time": 0.75,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(1)",
+            "text": "MI CAMPUS",
+            "fontPx": 16.64,
+            "time": 0.75,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2)",
+            "text": "▦ Inicio",
+            "fontPx": 16.64,
+            "time": 0.75,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "▤ Mis cursos",
+            "fontPx": 16.64,
+            "time": 0.75,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(4)",
+            "text": "✓ Evaluaciones",
+            "fontPx": 16.64,
+            "time": 0.75,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(5)",
+            "text": "◷ Calendario",
+            "fontPx": 16.64,
+            "time": 0.75,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "TU CONOCIMIENTO MERECE UN CAMPUS",
+            "fontPx": 22,
+            "time": 0,
+            "seconds": 7.875
+          },
+          {
+            "selector": "div.welcome-course > strong:nth-of-type(1)",
+            "text": "Aprendizaje digital",
+            "fontPx": 22.51,
+            "time": 0.75,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(1)",
+            "text": "ODISEACLOUD / AULAS VIRTUALES",
+            "fontPx": 24,
+            "time": 0,
+            "seconds": 7.875
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 23 text elements stay under it for 0.5 s or more, the smallest \"VISTA DEMOSTRATIVA · INTERFAZ ILUSTRA...\" at 12 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "VISTA DEMOSTRATIVA · INTERFAZ ILUSTRATIVA",
+        "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 361.62,
+          "y": 1430.62,
+          "width": 360.76,
+          "height": 14.61
+        },
+        "time": 8.5,
+        "times": [
+          7.875,
+          7.875,
+          8.5,
+          8.5,
+          8.5,
+          8.5,
+          8.5,
+          8.5,
+          8.5,
+          8.5,
+          8.5,
+          8.5,
+          8.5,
+          8.5,
+          8.5,
+          8.5,
+          8.5,
+          8.5,
+          8.5,
+          8.5,
+          8.5,
+          8.5,
+          9.25
+        ],
+        "fontPx": 11.69,
+        "floorPx": 28,
+        "seconds": 7.125,
+        "elements": [
+          {
+            "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+            "text": "VISTA DEMOSTRATIVA · INTERFAZ ILUSTRATIVA",
+            "fontPx": 11.69,
+            "time": 8.5,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(6) > small:nth-of-type(1)",
+            "text": "Estudiante",
+            "fontPx": 12.17,
+            "time": 8.5,
+            "seconds": 7.125
+          },
+          {
+            "selector": "div.card.c1 > small:nth-of-type(1)",
+            "text": "68% completado",
+            "fontPx": 12.99,
+            "time": 8.5,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(6)",
+            "text": "Ana Morales",
+            "fontPx": 14.61,
+            "time": 8.5,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1)",
+            "text": "AM",
+            "fontPx": 14.61,
+            "time": 8.5,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(1)",
+            "text": "Panel del estudiante",
+            "fontPx": 15.58,
+            "time": 8.5,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "🔔 AM",
+            "fontPx": 15.58,
+            "time": 8.5,
+            "seconds": 7.125
+          },
+          {
+            "selector": "div.card.c1 > b:nth-of-type(1)",
+            "text": "01 · INTRODUCCIÓN",
+            "fontPx": 15.58,
+            "time": 8.5,
+            "seconds": 7.125
+          },
+          {
+            "selector": "div.card.c1 > span:nth-of-type(1)",
+            "text": "Video · 12 min",
+            "fontPx": 15.58,
+            "time": 8.5,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > b:nth-of-type(1)",
+            "text": "02 · ACTIVIDAD",
+            "fontPx": 15.58,
+            "time": 8.5,
+            "seconds": 7.125
+          },
+          {
+            "selector": "div.card.c2 > span:nth-of-type(1)",
+            "text": "Cuestionario · 8 preguntas",
+            "fontPx": 15.58,
+            "time": 8.5,
+            "seconds": 7.125
+          },
+          {
+            "selector": "div.card.c2 > button:nth-of-type(1)",
+            "text": "Continuar curso →",
+            "fontPx": 15.58,
+            "time": 8.5,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "campus.tuinstitucion.edu.pe",
+            "fontPx": 16.56,
+            "time": 8.5,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(1)",
+            "text": "MI CAMPUS",
+            "fontPx": 16.56,
+            "time": 8.5,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2)",
+            "text": "▦ Inicio",
+            "fontPx": 16.56,
+            "time": 8.5,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "▤ Mis cursos",
+            "fontPx": 16.56,
+            "time": 8.5,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(4)",
+            "text": "✓ Evaluaciones",
+            "fontPx": 16.56,
+            "time": 8.5,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(5)",
+            "text": "◷ Calendario",
+            "fontPx": 16.56,
+            "time": 8.5,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(4)",
+            "text": "DESLIZA Y DESCUBRE",
+            "fontPx": 17.42,
+            "time": 9.25,
+            "seconds": 6.375
+          },
+          {
+            "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "TU CONOCIMIENTO MERECE UN CAMPUS",
+            "fontPx": 22,
+            "time": 7.875,
+            "seconds": 7.75
+          },
+          {
+            "selector": "div.card.c1 > h3:nth-of-type(1)",
+            "text": "Fundamentos digitales",
+            "fontPx": 23.37,
+            "time": 8.5,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > h3:nth-of-type(1)",
+            "text": "Evalúa lo aprendido",
+            "fontPx": 23.37,
+            "time": 8.5,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(1)",
+            "text": "ODISEACLOUD / AULAS VIRTUALES",
+            "fontPx": 24,
+            "time": 7.875,
+            "seconds": 7.75
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 20 text elements stay under it for 0.5 s or more, the smallest \"VISTA DEMOSTRATIVA · INTERFAZ ILUSTRA...\" at 12 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "VISTA DEMOSTRATIVA · INTERFAZ ILUSTRATIVA",
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 359.93,
+          "y": 1420.89,
+          "width": 364.14,
+          "height": 14.75
+        },
+        "time": 16.375,
+        "times": [
+          15.625,
+          15.625,
+          16.375,
+          16.375,
+          16.375,
+          16.375,
+          16.375,
+          16.375,
+          16.375,
+          16.375,
+          16.375,
+          16.375,
+          16.375,
+          16.375,
+          16.375,
+          16.375,
+          16.375,
+          16.375,
+          16.375,
+          17
+        ],
+        "fontPx": 11.8,
+        "floorPx": 28,
+        "seconds": 7.125,
+        "elements": [
+          {
+            "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+            "text": "VISTA DEMOSTRATIVA · INTERFAZ ILUSTRATIVA",
+            "fontPx": 11.8,
+            "time": 16.375,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(6) > small:nth-of-type(1)",
+            "text": "Estudiante",
+            "fontPx": 12.29,
+            "time": 16.375,
+            "seconds": 7.125
+          },
+          {
+            "selector": "div.card.c2 > small:nth-of-type(1)",
+            "text": "Avance general · 82%",
+            "fontPx": 13.11,
+            "time": 16.375,
+            "seconds": 7.125
+          },
+          {
+            "selector": "div.meetbar > strong:nth-of-type(1)",
+            "text": "EN VIVO · MEET / ZOOM",
+            "fontPx": 13.76,
+            "time": 16.375,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(6)",
+            "text": "Ana Morales",
+            "fontPx": 14.75,
+            "time": 16.375,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1)",
+            "text": "AM",
+            "fontPx": 14.75,
+            "time": 16.375,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(1)",
+            "text": "Panel del estudiante",
+            "fontPx": 15.73,
+            "time": 16.375,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "🔔 AM",
+            "fontPx": 15.73,
+            "time": 16.375,
+            "seconds": 7.125
+          },
+          {
+            "selector": "div.person > span:nth-of-type(1)",
+            "text": "Clase de hoy",
+            "fontPx": 15.73,
+            "time": 16.375,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > b:nth-of-type(1)",
+            "text": "PROGRESO DEL GRUPO",
+            "fontPx": 15.73,
+            "time": 16.375,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "campus.tuinstitucion.edu.pe",
+            "fontPx": 16.71,
+            "time": 16.375,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(1)",
+            "text": "MI CAMPUS",
+            "fontPx": 16.71,
+            "time": 16.375,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2)",
+            "text": "▦ Inicio",
+            "fontPx": 16.71,
+            "time": 16.375,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "▤ Mis cursos",
+            "fontPx": 16.71,
+            "time": 16.375,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(4)",
+            "text": "✓ Evaluaciones",
+            "fontPx": 16.71,
+            "time": 16.375,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(5)",
+            "text": "◷ Calendario",
+            "fontPx": 16.71,
+            "time": 16.375,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(4)",
+            "text": "DESLIZA Y DESCUBRE",
+            "fontPx": 16.79,
+            "time": 17,
+            "seconds": 6.5
+          },
+          {
+            "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "TU CONOCIMIENTO MERECE UN CAMPUS",
+            "fontPx": 22,
+            "time": 15.625,
+            "seconds": 7.875
+          },
+          {
+            "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(3) > h3:nth-of-type(1)",
+            "text": "Evaluaciones al día",
+            "fontPx": 23.59,
+            "time": 16.375,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(1)",
+            "text": "ODISEACLOUD / AULAS VIRTUALES",
+            "fontPx": 24,
+            "time": 15.625,
+            "seconds": 7.875
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 18 text elements stay under it for 0.5 s or more, the smallest \"VISTA DEMOSTRATIVA · INTERFAZ ILUSTRA...\" at 12 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "VISTA DEMOSTRATIVA · INTERFAZ ILUSTRATIVA",
+        "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 361.62,
+          "y": 1430.62,
+          "width": 360.76,
+          "height": 14.61
+        },
+        "time": 24.125,
+        "times": [
+          23.5,
+          23.5,
+          24.125,
+          24.125,
+          24.125,
+          24.125,
+          24.125,
+          24.125,
+          24.125,
+          24.125,
+          24.125,
+          24.125,
+          24.125,
+          24.125,
+          24.125,
+          24.125,
+          24.125,
+          24.875
+        ],
+        "fontPx": 11.69,
+        "floorPx": 28,
+        "seconds": 7.125,
+        "elements": [
+          {
+            "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+            "text": "VISTA DEMOSTRATIVA · INTERFAZ ILUSTRATIVA",
+            "fontPx": 11.69,
+            "time": 24.125,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(6) > small:nth-of-type(1)",
+            "text": "Estudiante",
+            "fontPx": 12.17,
+            "time": 24.125,
+            "seconds": 7.125
+          },
+          {
+            "selector": "div.certificate > small:nth-of-type(1)",
+            "text": "ODISEACLOUD · CAMPUS",
+            "fontPx": 12.99,
+            "time": 24.125,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(6)",
+            "text": "Ana Morales",
+            "fontPx": 14.61,
+            "time": 24.125,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1)",
+            "text": "AM",
+            "fontPx": 14.61,
+            "time": 24.125,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(1)",
+            "text": "Panel del estudiante",
+            "fontPx": 15.58,
+            "time": 24.125,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "🔔 AM",
+            "fontPx": 15.58,
+            "time": 24.125,
+            "seconds": 7.125
+          },
+          {
+            "selector": "div.certificate > p:nth-of-type(1)",
+            "text": "Aprendizaje que se convierteen nuevas oportunidades.",
+            "fontPx": 15.58,
+            "time": 24.125,
+            "seconds": 7.125
+          },
+          {
+            "selector": "div.certificate > b:nth-of-type(1)",
+            "text": "Verificación QR",
+            "fontPx": 15.58,
+            "time": 24.125,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "campus.tuinstitucion.edu.pe",
+            "fontPx": 16.56,
+            "time": 24.125,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(1)",
+            "text": "MI CAMPUS",
+            "fontPx": 16.56,
+            "time": 24.125,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2)",
+            "text": "▦ Inicio",
+            "fontPx": 16.56,
+            "time": 24.125,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "▤ Mis cursos",
+            "fontPx": 16.56,
+            "time": 24.125,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(4)",
+            "text": "✓ Evaluaciones",
+            "fontPx": 16.56,
+            "time": 24.125,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(5)",
+            "text": "◷ Calendario",
+            "fontPx": 16.56,
+            "time": 24.125,
+            "seconds": 7.125
+          },
+          {
+            "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(4)",
+            "text": "DESLIZA Y DESCUBRE",
+            "fontPx": 17.87,
+            "time": 24.875,
+            "seconds": 6.375
+          },
+          {
+            "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "TU CONOCIMIENTO MERECE UN CAMPUS",
+            "fontPx": 22,
+            "time": 23.5,
+            "seconds": 7.75
+          },
+          {
+            "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(1)",
+            "text": "ODISEACLOUD / AULAS VIRTUALES",
+            "fontPx": 24,
+            "time": 23.5,
+            "seconds": 7.75
+          }
+        ]
+      },
+      {
+        "code": "text_below_floor",
+        "severity": "warning",
+        "message": "Type floor is 28 px (2.6% of the 1080 px short side, what a phone can read) and 20 text elements stay under it for 0.5 s or more, the smallest \"Capacidad, soporte y renovación según...\" at 12 px: set reading text to at least 28 px, or put data-layout-ignore on text that is texture rather than reading; see references/look.md.",
+        "text": "Capacidad, soporte y renovación según propuesta",
+        "selector": "div.offer > small:nth-of-type(2)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene5.html",
+        "bbox": {
+          "x": 509.92,
+          "y": 1239.56,
+          "width": 338.43,
+          "height": 14.8
+        },
+        "time": 32,
+        "times": [
+          31.25,
+          31.25,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32,
+          32.625
+        ],
+        "fontPx": 11.84,
+        "floorPx": 28,
+        "seconds": 9,
+        "elements": [
+          {
+            "selector": "div.offer > small:nth-of-type(2)",
+            "text": "Capacidad, soporte y renovación según propuesta",
+            "fontPx": 11.84,
+            "time": 32,
+            "seconds": 9
+          },
+          {
+            "selector": "#scene5 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3)",
+            "text": "VISTA DEMOSTRATIVA · INTERFAZ ILUSTRATIVA",
+            "fontPx": 11.84,
+            "time": 32,
+            "seconds": 9
+          },
+          {
+            "selector": "#scene5 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(6) > small:nth-of-type(1)",
+            "text": "Estudiante",
+            "fontPx": 12.33,
+            "time": 32,
+            "seconds": 9
+          },
+          {
+            "selector": "div.offer > small:nth-of-type(1)",
+            "text": "PRECIO DE LANZAMIENTO",
+            "fontPx": 12.83,
+            "time": 32,
+            "seconds": 9
+          },
+          {
+            "selector": "#scene5 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(6)",
+            "text": "Ana Morales",
+            "fontPx": 14.8,
+            "time": 32,
+            "seconds": 9
+          },
+          {
+            "selector": "#scene5 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1)",
+            "text": "AM",
+            "fontPx": 14.8,
+            "time": 32,
+            "seconds": 9
+          },
+          {
+            "selector": "#scene5 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(1)",
+            "text": "Panel del estudiante",
+            "fontPx": 15.79,
+            "time": 32,
+            "seconds": 9
+          },
+          {
+            "selector": "#scene5 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > main:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "🔔 AM",
+            "fontPx": 15.79,
+            "time": 32,
+            "seconds": 9
+          },
+          {
+            "selector": "div.offer > span:nth-of-type(1)",
+            "text": "desde · primer año",
+            "fontPx": 15.79,
+            "time": 32,
+            "seconds": 9
+          },
+          {
+            "selector": "div.offer > button:nth-of-type(1)",
+            "text": "CONSULTA TU PROYECTO →",
+            "fontPx": 15.79,
+            "time": 32,
+            "seconds": 9
+          },
+          {
+            "selector": "#scene5 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+            "text": "campus.tuinstitucion.edu.pe",
+            "fontPx": 16.77,
+            "time": 32,
+            "seconds": 9
+          },
+          {
+            "selector": "#scene5 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(1)",
+            "text": "MI CAMPUS",
+            "fontPx": 16.77,
+            "time": 32,
+            "seconds": 9
+          },
+          {
+            "selector": "#scene5 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(2)",
+            "text": "▦ Inicio",
+            "fontPx": 16.77,
+            "time": 32,
+            "seconds": 9
+          },
+          {
+            "selector": "#scene5 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "▤ Mis cursos",
+            "fontPx": 16.77,
+            "time": 32,
+            "seconds": 9
+          },
+          {
+            "selector": "#scene5 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(4)",
+            "text": "✓ Evaluaciones",
+            "fontPx": 16.77,
+            "time": 32,
+            "seconds": 9
+          },
+          {
+            "selector": "#scene5 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > aside:nth-of-type(1) > div:nth-of-type(5)",
+            "text": "◷ Calendario",
+            "fontPx": 16.77,
+            "time": 32,
+            "seconds": 9
+          },
+          {
+            "selector": "#scene5 > div:nth-of-type(1) > div:nth-of-type(4)",
+            "text": "COTIZA POR WHATSAPP",
+            "fontPx": 16.79,
+            "time": 32.625,
+            "seconds": 8.375
+          },
+          {
+            "selector": "div.offer > p:nth-of-type(1)",
+            "text": "Implementación inicialy configuración base",
+            "fontPx": 18.75,
+            "time": 32,
+            "seconds": 9
+          },
+          {
+            "selector": "#scene5 > div:nth-of-type(1) > div:nth-of-type(3)",
+            "text": "TU CONOCIMIENTO MERECE UN CAMPUS",
+            "fontPx": 22,
+            "time": 31.25,
+            "seconds": 9.75
+          },
+          {
+            "selector": "#scene5 > div:nth-of-type(1) > div:nth-of-type(1)",
+            "text": "ODISEACLOUD / AULAS VIRTUALES",
+            "fontPx": 24,
+            "time": 31.25,
+            "seconds": 9.75
+          }
+        ]
+      }
+    ],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 328
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

@@ -1,0 +1,59 @@
+
+> videoia-local@0.1.0 hf
+> node scripts/hf.mjs snapshot projects/demo --at 1,8,15,23 --output output/final-frames --json
+
+◆  Capturing 4 frames at [1s, 8s, 15s, 23s] from demo
+[INFO] [Compiler] Fetched 11 font face(s) for "Inter" from Google Fonts (cached to C:\Users\huanc\.cache\hyperframes\fonts\inter)
+[INFO] [Compiler] Injected deterministic @font-face rules for 1 requested font families
+[hyperframes] browserGpuMode probe → hardware (WebGL renderer vendor="Google Inc. (Intel)" renderer="ANGLE (Intel, Intel(R) Iris(R) Plus Graphics (0x00008A52) Direct3D11 vs_5_0 ps_5_0, D3D11)")
+
+   Fonts: 8 loaded
+   Note: added an end-of-timeline frame at 25.75s. Short beats between your --at times may still be skipped — pass them explicitly.
+[hyperframes] snapshot: frame 1/5 at 1s
+[hyperframes] snapshot: frame 2/5 at 8s
+[hyperframes] snapshot: frame 3/5 at 15s
+[hyperframes] snapshot: frame 4/5 at 23s
+[hyperframes] snapshot: frame 5/5 at 25.75s
+   Revision: 1ef1a2ea-df78-4e5b-8eae-92ebc0eef6cd (recorded-revision)
+   State: C:\Users\huanc\Downloads\videoia\projects\demo\.hyperframes\video-state.json
+
+◇  5 snapshots saved to C:\Users\huanc\Downloads\videoia\output\final-frames
+   C:\Users\huanc\Downloads\videoia\output\final-frames\frame-00-at-1s.png
+   C:\Users\huanc\Downloads\videoia\output\final-frames\frame-01-at-8s.png
+   C:\Users\huanc\Downloads\videoia\output\final-frames\frame-02-at-15s.png
+   C:\Users\huanc\Downloads\videoia\output\final-frames\frame-03-at-23s.png
+   C:\Users\huanc\Downloads\videoia\output\final-frames\frame-04-at-25.75s.png
+   C:\Users\huanc\Downloads\videoia\output\final-frames\contact-sheet.jpg (grid view for AI review)
+{
+  "ok": true,
+  "outputDir": "C:\\Users\\huanc\\Downloads\\videoia\\output\\final-frames",
+  "frames": [
+    {
+      "path": "C:\\Users\\huanc\\Downloads\\videoia\\output\\final-frames\\frame-00-at-1s.png",
+      "time": 1
+    },
+    {
+      "path": "C:\\Users\\huanc\\Downloads\\videoia\\output\\final-frames\\frame-01-at-8s.png",
+      "time": 8
+    },
+    {
+      "path": "C:\\Users\\huanc\\Downloads\\videoia\\output\\final-frames\\frame-02-at-15s.png",
+      "time": 15
+    },
+    {
+      "path": "C:\\Users\\huanc\\Downloads\\videoia\\output\\final-frames\\frame-03-at-23s.png",
+      "time": 23
+    },
+    {
+      "path": "C:\\Users\\huanc\\Downloads\\videoia\\output\\final-frames\\frame-04-at-25.75s.png",
+      "time": 25.75
+    }
+  ],
+  "contactSheets": [
+    "C:\\Users\\huanc\\Downloads\\videoia\\output\\final-frames\\contact-sheet.jpg"
+  ],
+  "_meta": {
+    "version": "0.9.56",
+    "updateAvailable": false
+  }
+}

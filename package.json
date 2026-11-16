@@ -1,0 +1,13 @@
+{
+  "name": "videoia-local",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Producción local de videos sin suscripciones",
+  "scripts": {
+    "hf": "node scripts/hf.mjs",
+    "demo": "node scripts/build-demo.mjs"
+  },
+  "dependencies": {
+    "hyperframes": "0.9.56"
+  }
+}

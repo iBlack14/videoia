@@ -1,0 +1,37 @@
+<template>
+<style>
+#root {position:absolute;inset:0;color:#f5f3eb;font-family:Inter,sans-serif;background:#101921;overflow:hidden}
+.accent{position:absolute;width:600px;height:600px;border:2px solid #b9f96b;border-radius:50%;right:-230px;top:80px;opacity:.25}
+.content{position:absolute;left:132px;width:620px;top:320px}
+.eyebrow{font-size:28px;letter-spacing:7px;color:#b9f96b;margin-bottom:34px}
+h1{font-size:76px;line-height:1.08;letter-spacing:-3px;margin:0;font-weight:900}
+.line{height:7px;width:110px;background:#b9f96b;margin:30px 0}
+p{font-size:34px;line-height:1.35;color:#c0cad0;margin:0}
+.footer{position:absolute;top:1180px;left:132px;font-size:28px;letter-spacing:2px;color:#b9f96b}
+
+.illustration{position:absolute;left:132px;top:800px;width:620px;height:340px;color:#b9f96b}
+.browser{height:330px;border:2px solid #486273;border-radius:25px;background:#172b3c;overflow:hidden;box-shadow:0 25px 60px #0005}
+.toolbar{height:66px;background:#233d50;display:flex;align-items:center;gap:9px;padding:0 15px}.dot{width:10px;height:10px;border-radius:50%;background:#8193a0}.url{background:#102131;padding:9px 12px;border-radius:10px;color:#e3edf3;font-size:28px;margin-left:5px;letter-spacing:-1px}.browser-body{position:relative;height:260px;padding:18px 22px;box-sizing:border-box}
+.lock{position:absolute;left:48px;top:32px}.visual-label{font-size:29px;font-weight:700;position:absolute;left:160px;top:65px;color:#e4f1f6}.alert{position:absolute;left:160px;top:115px;background:#ef6c6530;color:#ff9c8e;padding:14px;font-size:28px;border-radius:12px}.cursor{position:absolute;left:440px;top:145px;z-index:3}.click-ring{position:absolute;left:440px;top:155px;width:45px;height:45px;border:4px solid #b9f96b;border-radius:50%;opacity:0}
+.connection{display:flex;align-items:center;justify-content:space-between;position:absolute;top:85px;width:100%}.endpoint{padding:25px 18px;background:#233d50;border:2px solid #60838d;border-radius:20px;font-size:34px;font-weight:900;color:#e6f1f6}.tunnel{position:relative;width:290px;height:18px;background:#b9f96b25;border-radius:20px;overflow:hidden}.packet{position:absolute;top:-8px;font-size:29px;color:#b9f96b}.center-lock{position:absolute;left:265px;top:25px;background:#101921;padding:12px}.bottom-label{top:245px;left:85px}
+.domain{font-size:30px;padding:19px 10px;color:#f5f3eb;letter-spacing:-1px;display:flex;justify-content:space-between}.domain span{color:#b9f96b}.bad{background:#ff746714;border-radius:12px}.bad span{color:#ff9c8e}.underline{position:absolute;left:34px;top:161px;width:350px;height:5px;background:#ff9c8e}.domain-note{left:34px;top:205px;font-size:28px;color:#c0cad0}
+.message{position:relative;background:#263445;border:1px solid #627082;border-radius:20px;padding:23px;font-size:28px;color:#c0cad0}.fake-link{font-size:32px;color:#ffaaa0;margin-top:16px}.cross{position:absolute;right:20px;top:16px;font-size:62px;color:#ff9c8e}.official{display:flex;align-items:center;gap:17px;border:2px solid #b9f96b;background:#b9f96b12;border-radius:20px;margin-top:22px;padding:18px 20px;font-size:30px;color:#f5f3eb}.mini-lock svg{width:36px;height:44px;color:#b9f96b}.check{margin-left:auto;color:#b9f96b;font-size:40px}.progress{position:absolute;left:132px;top:1260px;width:620px;height:7px;background:#ffffff20;border-radius:10px;overflow:hidden}.progress-fill{height:100%;background:#b9f96b}
+ .packet{top:3px;width:12px;height:12px;border-radius:50%;background:#b9f96b}
+
+</style>
+<div id="root" data-composition-id="scene2" data-width="1080" data-height="1920">
+ <div class="accent" data-layout-ignore></div>
+ <div class="content"><div class="eyebrow">VIDEOIA / 02</div><h1>HTTPS cifra la conexión.</h1><div class="line"></div><p>No garantiza que quien recibe tus datos sea confiable.</p></div>
+ <div class="footer">WEB / SEGURIDAD DIGITAL</div>
+ <div class="illustration"><div class="connection"><div class="endpoint">TÚ</div><div class="tunnel" data-layout-ignore><div class="packet"></div><div class="packet p2"></div><div class="packet p3"></div></div><div class="endpoint">WEB</div></div><div class="center-lock"><svg viewBox="0 0 100 120" width="82" height="98" aria-label="Candado"><path d="M25 50V30a25 25 0 0 1 50 0v20" fill="none" stroke="currentColor" stroke-width="10"/><rect x="10" y="48" width="80" height="65" rx="17" fill="currentColor"/><circle cx="50" cy="78" r="8" fill="#122131"/><path d="M50 82v14" stroke="#122131" stroke-width="7"/></svg></div><div class="visual-label bottom-label">Datos cifrados en tránsito</div></div><div class="progress" data-layout-ignore><div class="progress-fill"></div></div>
+</div>
+<script>
+const tl=gsap.timeline({paused:true});
+tl.fromTo('.illustration',{y:45,opacity:0},{y:0,opacity:1,duration:.6,ease:'power3.out'},.25);tl.fromTo('.packet',{x:-25},{x:240,duration:1.6,stagger:.45,repeat:2,ease:'none'},.5);tl.fromTo('.center-lock',{scale:.7},{scale:1,duration:.6,ease:'back.out'},.8);tl.fromTo('.progress-fill',{scaleX:0},{scaleX:1,duration:8.5,ease:'none',transformOrigin:'left'},0);
+tl.fromTo('.content',{opacity:.8,y:35},{opacity:1,y:0,duration:.65,ease:'power3.out'},0);
+tl.fromTo('.line',{scaleX:0},{scaleX:1,duration:.6,transformOrigin:'left'},.3);
+tl.fromTo('.accent',{rotation:0,scale:.9},{rotation:35,scale:1.2,duration:8.5,ease:'none'},0);
+tl.to('.content',{y:-15,duration:7.5,ease:'none'},.7);
+tl.to('.content',{opacity:0,y:-25,duration:.25},8.2);
+window.__timelines=window.__timelines||{};window.__timelines['scene2']=tl;
+</script></template>

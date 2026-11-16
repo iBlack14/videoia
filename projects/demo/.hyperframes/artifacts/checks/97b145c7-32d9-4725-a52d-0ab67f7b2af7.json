@@ -1,0 +1,789 @@
+{
+  "ok": false,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 5
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "clip_media_fit",
+        "severity": "warning",
+        "message": "Audio \"voice4\" is 5.61s but its slot (data-duration) is 5.70s — the slot is shortened to the media length when rendered. Set data-duration to ~5.61s if that isn't intended.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {
+          "data-composition-id": "main",
+          "data-start": "0",
+          "data-duration": "26",
+          "data-width": "1080",
+          "data-height": "1920",
+          "data-fps": "30"
+        },
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 1080,
+          "height": 1920
+        },
+        "time": 0
+      }
+    ]
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 16,
+    "infoCount": 0,
+    "findings": [
+      {
+        "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 112,
+          "y": 440,
+          "width": 251.02,
+          "height": 34
+        },
+        "time": 1.444,
+        "rect": {
+          "left": 112,
+          "top": 440,
+          "right": 363.02,
+          "bottom": 474,
+          "width": 251.02,
+          "height": 34
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "VIDEOIA / 01",
+        "message": "<div> \"VIDEOIA / 01\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 1.444,
+        "lastSeen": 4.333,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          1.444,
+          4.333
+        ]
+      },
+      {
+        "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > h1:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 112,
+          "y": 547,
+          "width": 514.41,
+          "height": 337
+        },
+        "time": 1.444,
+        "rect": {
+          "left": 112,
+          "top": 547,
+          "right": 626.41,
+          "bottom": 884,
+          "width": 514.41,
+          "height": 337
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "¿Candado significa confianza?",
+        "message": "<h1> \"¿Candado significa confianza?\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 1.444,
+        "lastSeen": 4.333,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          1.444,
+          4.333
+        ]
+      },
+      {
+        "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 112,
+          "y": 1009,
+          "width": 797.66,
+          "height": 105
+        },
+        "time": 1.444,
+        "rect": {
+          "left": 112,
+          "top": 1009,
+          "right": 909.66,
+          "bottom": 1114,
+          "width": 797.66,
+          "height": 105
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Una web fraudulenta también puede tener HTTPS.",
+        "message": "<p> \"Una web fraudulenta también puede tener HTTPS.\" is outside the safe area: TikTok (left and right edges), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 1.444,
+        "lastSeen": 4.333,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          1.444,
+          4.333
+        ]
+      },
+      {
+        "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 112,
+          "y": 1240,
+          "width": 433.28,
+          "height": 34
+        },
+        "time": 1.444,
+        "rect": {
+          "left": 112,
+          "top": 1240,
+          "right": 545.28,
+          "bottom": 1274,
+          "width": 433.28,
+          "height": 34
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "WEB / SEGURIDAD DIGITAL",
+        "message": "<div> \"WEB / SEGURIDAD DIGITAL\" is outside the safe area: TikTok (left and bottom edges), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 1.444,
+        "lastSeen": 4.333,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          1.444,
+          4.333
+        ]
+      },
+      {
+        "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 112,
+          "y": 440.77,
+          "width": 256.7,
+          "height": 34
+        },
+        "time": 7.222,
+        "rect": {
+          "left": 112,
+          "top": 440.77,
+          "right": 368.7,
+          "bottom": 474.77,
+          "width": 256.7,
+          "height": 34
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "VIDEOIA / 02",
+        "message": "<div> \"VIDEOIA / 02\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 7.222,
+        "lastSeen": 13,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          7.222,
+          10.111,
+          13
+        ]
+      },
+      {
+        "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > h1:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 112,
+          "y": 547.77,
+          "width": 636.2,
+          "height": 229
+        },
+        "time": 7.222,
+        "rect": {
+          "left": 112,
+          "top": 547.77,
+          "right": 748.2,
+          "bottom": 776.77,
+          "width": 636.2,
+          "height": 229
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "HTTPS cifra la conexión.",
+        "message": "<h1> \"HTTPS cifra la conexión.\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 7.222,
+        "lastSeen": 13,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          7.222,
+          10.111,
+          13
+        ]
+      },
+      {
+        "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 112,
+          "y": 901.77,
+          "width": 832.55,
+          "height": 105
+        },
+        "time": 7.222,
+        "rect": {
+          "left": 112,
+          "top": 901.77,
+          "right": 944.55,
+          "bottom": 1006.77,
+          "width": 832.55,
+          "height": 105
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "No garantiza que quien recibe tus datos sea conf",
+        "message": "<p> \"No garantiza que quien recibe tus datos sea conf\" is outside the safe area: TikTok (left and right edges), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 7.222,
+        "lastSeen": 13,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          7.222,
+          10.111,
+          13
+        ]
+      },
+      {
+        "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 112,
+          "y": 1240,
+          "width": 433.28,
+          "height": 34
+        },
+        "time": 7.222,
+        "rect": {
+          "left": 112,
+          "top": 1240,
+          "right": 545.28,
+          "bottom": 1274,
+          "width": 433.28,
+          "height": 34
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "WEB / SEGURIDAD DIGITAL",
+        "message": "<div> \"WEB / SEGURIDAD DIGITAL\" is outside the safe area: TikTok (left and bottom edges), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 7.222,
+        "lastSeen": 13,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          7.222,
+          10.111,
+          13
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 112,
+          "y": 440,
+          "width": 256.92,
+          "height": 34
+        },
+        "time": 15.889,
+        "rect": {
+          "left": 112,
+          "top": 440,
+          "right": 368.92,
+          "bottom": 474,
+          "width": 256.92,
+          "height": 34
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "VIDEOIA / 03",
+        "message": "<div> \"VIDEOIA / 03\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 15.889,
+        "lastSeen": 18.778,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          15.889,
+          18.778
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > h1:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 112,
+          "y": 547,
+          "width": 688.78,
+          "height": 229
+        },
+        "time": 15.889,
+        "rect": {
+          "left": 112,
+          "top": 547,
+          "right": 800.78,
+          "bottom": 776,
+          "width": 688.78,
+          "height": 229
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Mira el dominio completo.",
+        "message": "<h1> \"Mira el dominio completo.\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 15.889,
+        "lastSeen": 18.778,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          15.889,
+          18.778
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 112,
+          "y": 901,
+          "width": 787.39,
+          "height": 105
+        },
+        "time": 15.889,
+        "rect": {
+          "left": 112,
+          "top": 901,
+          "right": 899.39,
+          "bottom": 1006,
+          "width": 787.39,
+          "height": 105
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Un nombre parecido puede llevarte a otro sitio.",
+        "message": "<p> \"Un nombre parecido puede llevarte a otro sitio.\" is outside the safe area: TikTok (left and right edges), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 15.889,
+        "lastSeen": 18.778,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          15.889,
+          18.778
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 112,
+          "y": 1240,
+          "width": 433.28,
+          "height": 34
+        },
+        "time": 15.889,
+        "rect": {
+          "left": 112,
+          "top": 1240,
+          "right": 545.28,
+          "bottom": 1274,
+          "width": 433.28,
+          "height": 34
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "WEB / SEGURIDAD DIGITAL",
+        "message": "<div> \"WEB / SEGURIDAD DIGITAL\" is outside the safe area: TikTok (left and bottom edges), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 15.889,
+        "lastSeen": 18.778,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          15.889,
+          18.778
+        ]
+      },
+      {
+        "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 112,
+          "y": 440,
+          "width": 257.72,
+          "height": 34
+        },
+        "time": 21.667,
+        "rect": {
+          "left": 112,
+          "top": 440,
+          "right": 369.72,
+          "bottom": 474,
+          "width": 257.72,
+          "height": 34
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "VIDEOIA / 04",
+        "message": "<div> \"VIDEOIA / 04\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 21.667,
+        "lastSeen": 24.556,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          21.667,
+          24.556
+        ]
+      },
+      {
+        "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > h1:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 112,
+          "y": 547,
+          "width": 521.8,
+          "height": 229
+        },
+        "time": 21.667,
+        "rect": {
+          "left": 112,
+          "top": 547,
+          "right": 633.8,
+          "bottom": 776,
+          "width": 521.8,
+          "height": 229
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Entra por tu cuenta.",
+        "message": "<h1> \"Entra por tu cuenta.\" is outside the safe area: TikTok (left edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 21.667,
+        "lastSeen": 24.556,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          21.667,
+          24.556
+        ]
+      },
+      {
+        "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > p:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 112,
+          "y": 901,
+          "width": 818.16,
+          "height": 105
+        },
+        "time": 21.667,
+        "rect": {
+          "left": 112,
+          "top": 901,
+          "right": 930.16,
+          "bottom": 1006,
+          "width": 818.16,
+          "height": 105
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "Ante un enlace inesperado, abre la app o el siti",
+        "message": "<p> \"Ante un enlace inesperado, abre la app o el siti\" is outside the safe area: TikTok (left and right edges), YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 21.667,
+        "lastSeen": 24.556,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          21.667,
+          24.556
+        ]
+      },
+      {
+        "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(3)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 112,
+          "y": 1240,
+          "width": 433.28,
+          "height": 34
+        },
+        "time": 21.667,
+        "rect": {
+          "left": 112,
+          "top": 1240,
+          "right": 545.28,
+          "bottom": 1274,
+          "width": 433.28,
+          "height": 34
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "WEB / SEGURIDAD DIGITAL",
+        "message": "<div> \"WEB / SEGURIDAD DIGITAL\" is outside the safe area: TikTok (left and bottom edges), Instagram Reels (bottom edge), YouTube Shorts (bottom edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 21.667,
+        "lastSeen": 24.556,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          21.667,
+          24.556
+        ]
+      }
+    ],
+    "duration": 26,
+    "samples": [
+      1.444,
+      4.333,
+      7.222,
+      10.111,
+      13,
+      15.889,
+      18.778,
+      21.667,
+      24.556
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 16,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      1.444,
+      7.222,
+      13,
+      18.778,
+      24.556
+    ],
+    "checked": 20,
+    "passed": 20
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 3,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 5.63 s (0.88–6.50 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0.875,
+        "seconds": 5.625,
+        "floorSeconds": 3,
+        "until": 6.5
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 5.75 s (7.75–13.50 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 7.75,
+        "seconds": 5.75,
+        "floorSeconds": 3,
+        "until": 13.5
+      },
+      {
+        "code": "dead_stretch",
+        "severity": "warning",
+        "message": "Nothing on screen changes for 4.50 s (14.75–19.25 s): start the next move within 3 s, or put data-hold on the element whose stillness is deliberate; see references/motion.md.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 14.75,
+        "seconds": 4.5,
+        "floorSeconds": 3,
+        "until": 19.25
+      }
+    ],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 208
+  },
+  "audio": {
+    "ok": false,
+    "errorCount": 4,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "audio_source_unreadable",
+        "severity": "error",
+        "message": "assets/voice1.wav cannot be read as audio ([FFmpeg] ffprobe not found. Please install FFmpeg.), so the render's audio mix fails and the render stops.",
+        "selector": "#voice1",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "timeRange": [
+          0,
+          6.1
+        ],
+        "fixHint": "Point src at a file with an audio track, or re-export this one."
+      },
+      {
+        "code": "audio_source_unreadable",
+        "severity": "error",
+        "message": "assets/voice2.wav cannot be read as audio ([FFmpeg] ffprobe not found. Please install FFmpeg.), so the render's audio mix fails and the render stops.",
+        "selector": "#voice2",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 6.8,
+        "timeRange": [
+          6.8,
+          13.1
+        ],
+        "fixHint": "Point src at a file with an audio track, or re-export this one."
+      },
+      {
+        "code": "audio_source_unreadable",
+        "severity": "error",
+        "message": "assets/voice3.wav cannot be read as audio ([FFmpeg] ffprobe not found. Please install FFmpeg.), so the render's audio mix fails and the render stops.",
+        "selector": "#voice3",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 13.8,
+        "timeRange": [
+          13.8,
+          18.9
+        ],
+        "fixHint": "Point src at a file with an audio track, or re-export this one."
+      },
+      {
+        "code": "audio_source_unreadable",
+        "severity": "error",
+        "message": "assets/voice4.wav cannot be read as audio ([FFmpeg] ffprobe not found. Please install FFmpeg.), so the render's audio mix fails and the render stops.",
+        "selector": "#voice4",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 19.6,
+        "timeRange": [
+          19.6,
+          25.3
+        ],
+        "fixHint": "Point src at a file with an audio track, or re-export this one."
+      }
+    ]
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

@@ -1,0 +1,589 @@
+{
+  "ok": false,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 5
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": false,
+    "errorCount": 3,
+    "warningCount": 7,
+    "infoCount": 2,
+    "findings": [
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 7.222,
+        "selector": "div.tunnel > div:nth-of-type(1)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 280.78,
+          "top": 937.74,
+          "right": 282.3,
+          "bottom": 955.74,
+          "width": 1.52,
+          "height": 18
+        },
+        "containerSelector": "div.packet.p2",
+        "text": "●",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 280.78,
+          "y": 937.74,
+          "width": 1.52,
+          "height": 18
+        },
+        "firstSeen": 7.117,
+        "lastSeen": 12.346,
+        "occurrences": 14,
+        "heldMs": 581.0000000000013,
+        "times": [
+          7.117,
+          7.222,
+          7.263,
+          7.408,
+          9.296,
+          9.441,
+          9.587,
+          9.732,
+          9.877,
+          11.765,
+          11.911,
+          12.056,
+          12.201,
+          12.346
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "error",
+        "time": 7.222,
+        "selector": "div.packet.p2",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 280.78,
+          "top": 937.74,
+          "right": 282.3,
+          "bottom": 955.74,
+          "width": 1.52,
+          "height": 18
+        },
+        "containerSelector": "div.packet.p3",
+        "text": "●",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply. Decoration nobody needs to read can take data-layout-ignore.",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 280.78,
+          "y": 937.74,
+          "width": 1.52,
+          "height": 18
+        },
+        "firstSeen": 7.117,
+        "lastSeen": 12.927,
+        "occurrences": 19,
+        "heldMs": 727.0000000000003,
+        "times": [
+          7.117,
+          7.222,
+          7.263,
+          7.408,
+          7.553,
+          7.698,
+          7.844,
+          9.732,
+          9.877,
+          10.022,
+          10.111,
+          10.168,
+          10.313,
+          12.201,
+          12.346,
+          12.492,
+          12.637,
+          12.782,
+          12.927
+        ]
+      },
+      {
+        "code": "text_box_overflow",
+        "severity": "error",
+        "time": 10.111,
+        "selector": "div.tunnel > div:nth-of-type(1)",
+        "message": "Text extends outside its nearest visual/container box.",
+        "rect": {
+          "left": 305.47,
+          "top": 921.5,
+          "right": 331.98,
+          "bottom": 944.5,
+          "width": 26.51,
+          "height": 23
+        },
+        "containerSelector": "div.tunnel",
+        "text": "●",
+        "fixHint": "Text is 27px x 23px inside 290px x 18px and overflows by up to 3px; increase the container height to at least ~21px or shrink font-size from 29px to ~23px, or allow wrapping with max-width/fitTextFontSize.",
+        "containerRect": {
+          "left": 280.78,
+          "top": 923.5,
+          "right": 570.78,
+          "bottom": 941.5,
+          "width": 290,
+          "height": 18
+        },
+        "overflow": {
+          "bottom": 3
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 305.47,
+          "y": 921.5,
+          "width": 26.51,
+          "height": 23
+        },
+        "firstSeen": 10.111,
+        "lastSeen": 13,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          10.111,
+          13
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 7.222,
+        "selector": "div.packet.p2",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 255.78,
+          "top": 929.74,
+          "right": 282.3,
+          "bottom": 964.74,
+          "width": 26.52,
+          "height": 35
+        },
+        "containerSelector": "div.tunnel",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 280.78,
+          "top": 937.74,
+          "right": 570.78,
+          "bottom": 955.74,
+          "width": 290,
+          "height": 18
+        },
+        "overflow": {
+          "left": 25,
+          "top": 8,
+          "bottom": 9
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 255.78,
+          "y": 929.74,
+          "width": 26.52,
+          "height": 35
+        },
+        "firstSeen": 7.222,
+        "lastSeen": 13,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          7.222,
+          10.111,
+          13
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 7.222,
+        "selector": "div.packet.p3",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 255.78,
+          "top": 929.74,
+          "right": 282.3,
+          "bottom": 964.74,
+          "width": 26.52,
+          "height": 35
+        },
+        "containerSelector": "div.tunnel",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 280.78,
+          "top": 937.74,
+          "right": 570.78,
+          "bottom": 955.74,
+          "width": 290,
+          "height": 18
+        },
+        "overflow": {
+          "left": 25,
+          "top": 8,
+          "bottom": 9
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 255.78,
+          "y": 929.74,
+          "width": 26.52,
+          "height": 35
+        },
+        "firstSeen": 7.222,
+        "lastSeen": 13,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          7.222,
+          10.111,
+          13
+        ]
+      },
+      {
+        "code": "container_overflow",
+        "severity": "warning",
+        "time": 10.111,
+        "selector": "div.tunnel > div:nth-of-type(1)",
+        "message": "Element extends outside a clipping layout container.",
+        "rect": {
+          "left": 305.47,
+          "top": 915.5,
+          "right": 331.98,
+          "bottom": 950.5,
+          "width": 26.52,
+          "height": 35
+        },
+        "containerSelector": "div.tunnel",
+        "fixHint": "Resize/reposition the child or container, or mark intentional overflow with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 280.78,
+          "top": 923.5,
+          "right": 570.78,
+          "bottom": 941.5,
+          "width": 290,
+          "height": 18
+        },
+        "overflow": {
+          "top": 8,
+          "bottom": 9
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 305.47,
+          "y": 915.5,
+          "width": 26.52,
+          "height": 35
+        },
+        "firstSeen": 7.222,
+        "lastSeen": 13,
+        "occurrences": 3,
+        "heldMs": 0,
+        "times": [
+          7.222,
+          10.111,
+          13
+        ]
+      },
+      {
+        "selector": "#scene1 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene1.html",
+        "bbox": {
+          "x": 132,
+          "y": 280.69,
+          "width": 251.02,
+          "height": 34
+        },
+        "time": 4.333,
+        "rect": {
+          "left": 132,
+          "top": 280.69,
+          "right": 383.02,
+          "bottom": 314.69,
+          "width": 251.02,
+          "height": 34
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "VIDEOIA / 01",
+        "message": "<div> \"VIDEOIA / 01\" is outside the safe area: YouTube Shorts (top edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 4.333,
+        "lastSeen": 4.333,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          4.333
+        ]
+      },
+      {
+        "selector": "#scene2 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 132,
+          "y": 283.5,
+          "width": 256.7,
+          "height": 34
+        },
+        "time": 10.111,
+        "rect": {
+          "left": 132,
+          "top": 283.5,
+          "right": 388.7,
+          "bottom": 317.5,
+          "width": 256.7,
+          "height": 34
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "VIDEOIA / 02",
+        "message": "<div> \"VIDEOIA / 02\" is outside the safe area: YouTube Shorts (top edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 10.111,
+        "lastSeen": 13,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          10.111,
+          13
+        ]
+      },
+      {
+        "selector": "#scene3 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene3.html",
+        "bbox": {
+          "x": 132,
+          "y": 285.73,
+          "width": 256.92,
+          "height": 34
+        },
+        "time": 15.889,
+        "rect": {
+          "left": 132,
+          "top": 285.73,
+          "right": 388.92,
+          "bottom": 319.73,
+          "width": 256.92,
+          "height": 34
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "VIDEOIA / 03",
+        "message": "<div> \"VIDEOIA / 03\" is outside the safe area: YouTube Shorts (top edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 15.889,
+        "lastSeen": 18.778,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          15.889,
+          18.778
+        ]
+      },
+      {
+        "selector": "#scene4 > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1)",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 132,
+          "y": 286.2,
+          "width": 257.72,
+          "height": 34
+        },
+        "time": 21.667,
+        "rect": {
+          "left": 132,
+          "top": 286.2,
+          "right": 389.72,
+          "bottom": 320.2,
+          "width": 257.72,
+          "height": 34
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "VIDEOIA / 04",
+        "message": "<div> \"VIDEOIA / 04\" is outside the safe area: YouTube Shorts (top edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 21.667,
+        "lastSeen": 24.556,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          21.667,
+          24.556
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 13,
+        "selector": "div.tunnel > div:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 371.72,
+          "top": 915.5,
+          "right": 398.23,
+          "bottom": 950.5,
+          "width": 26.52,
+          "height": 35
+        },
+        "containerSelector": "div.center-lock",
+        "text": "●",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 0.11,
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 371.72,
+          "y": 915.5,
+          "width": 26.52,
+          "height": 35
+        },
+        "firstSeen": 13,
+        "lastSeen": 13,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          13
+        ]
+      },
+      {
+        "code": "text_box_overflow",
+        "severity": "info",
+        "time": 13,
+        "selector": "div.packet.p2",
+        "message": "Text extends outside its nearest visual/container box.",
+        "rect": {
+          "left": 297.19,
+          "top": 921.5,
+          "right": 323.7,
+          "bottom": 944.5,
+          "width": 26.51,
+          "height": 23
+        },
+        "containerSelector": "div.tunnel",
+        "text": "●",
+        "fixHint": "Text is 27px x 23px inside 290px x 18px and overflows by up to 3px; increase the container height to at least ~21px or shrink font-size from 29px to ~23px, or allow wrapping with max-width/fitTextFontSize.",
+        "containerRect": {
+          "left": 280.78,
+          "top": 923.5,
+          "right": 570.78,
+          "bottom": 941.5,
+          "width": 290,
+          "height": 18
+        },
+        "overflow": {
+          "bottom": 3
+        },
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene2.html",
+        "bbox": {
+          "x": 297.19,
+          "y": 921.5,
+          "width": 26.51,
+          "height": 23
+        },
+        "firstSeen": 13,
+        "lastSeen": 13,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          13
+        ]
+      }
+    ],
+    "duration": 26,
+    "samples": [
+      1.444,
+      4.333,
+      7.222,
+      10.111,
+      13,
+      15.889,
+      18.778,
+      21.667,
+      24.556
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 12,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      1.444,
+      7.222,
+      13,
+      18.778,
+      24.556
+    ],
+    "checked": 44,
+    "passed": 44
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 208
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  }
+}

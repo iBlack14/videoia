@@ -1,0 +1,10 @@
+{
+  "title": "El candado no garantiza una web confiable",
+  "description": "HTTPS cifra la conexión, pero una web fraudulenta también puede usarlo. Revisa el dominio y evita ingresar datos desde enlaces inesperados.",
+  "scenes": [
+    {"title": "¿Candado significa confianza?", "subtitle": "Una web fraudulenta también puede tener HTTPS.", "duration": 4},
+    {"title": "HTTPS cifra la conexión.", "subtitle": "No garantiza que quien recibe tus datos sea confiable.", "duration": 4},
+    {"title": "Mira el dominio completo.", "subtitle": "Un nombre parecido puede llevarte a otro sitio.", "duration": 4},
+    {"title": "Entra por tu cuenta.", "subtitle": "Ante un enlace inesperado, abre la app o el sitio oficial.", "duration": 4}
+  ]
+}

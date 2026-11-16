@@ -1,0 +1,418 @@
+
+> videoia-local@0.1.0 hf
+> node scripts/hf.mjs catalog --query browser cursor shield lock --json
+
+{
+  "query": "browser cursor shield lock",
+  "tier": "words",
+  "tier_detail": "local word match",
+  "dropped": 0,
+  "unindexed": 0,
+  "shown": 26,
+  "total": 448,
+  "report_gap": "npx hyperframes feedback --search-miss \"browser cursor shield lock\" --wanted \"<the move you needed>\" --tier words",
+  "results": [
+    {
+      "name": "browser-device-stage",
+      "type": "component",
+      "title": "Browser Device Stage",
+      "description": "A generic app surface in token-native device chrome (browser, window, or phone). The screen is a slot for caller img/video/HTML with a token-styled skeleton default; one settle entrance, a readable hold, and an optional screen swap.",
+      "tags": [
+        "stage",
+        "product-demo",
+        "device",
+        "browser",
+        "phone",
+        "slot",
+        "chrome"
+      ]
+    },
+    {
+      "name": "agent-cursor",
+      "type": "component",
+      "title": "Agent Cursor",
+      "description": "An AI agent operating a UI: a cursor with an accent name label that types out each step, clicks each target with a small ring, and ends on a check.",
+      "tags": [
+        "cursor",
+        "motion-primitive",
+        "agent",
+        "ai",
+        "status",
+        "click"
+      ]
+    },
+    {
+      "name": "cursor-text-select",
+      "type": "component",
+      "title": "Text Select Cursor",
+      "description": "An arrow turns into an I-beam over a document, drags a selection across a phrase character by character, raises a format toolbar, turns back into an arrow and clicks Bold.",
+      "tags": [
+        "cursor",
+        "motion-primitive",
+        "text",
+        "selection",
+        "editor",
+        "toolbar"
+      ]
+    },
+    {
+      "name": "cursor-marquee-select",
+      "type": "component",
+      "title": "Marquee Select Cursor",
+      "description": "A cursor drags a selection rectangle across a photo grid; each tile rings and pops a check the frame the rectangle touches it, while a pill counts the selection up.",
+      "tags": [
+        "cursor",
+        "motion-primitive",
+        "select",
+        "marquee",
+        "grid",
+        "product-demo"
+      ]
+    },
+    {
+      "name": "magnetic-cursor",
+      "type": "component",
+      "title": "Magnetic Cursor",
+      "description": "A soft dot pointer glides across an editor toolbar, is pulled into each button and morphs into its rounded hover plate while the icon leans toward it, presses one, and leaves as a dot.",
+      "tags": [
+        "cursor",
+        "motion-primitive",
+        "pointer",
+        "hover",
+        "morph",
+        "toolbar"
+      ]
+    },
+    {
+      "name": "vfx-text-cursor",
+      "type": "block",
+      "title": "VFX Text Cursor",
+      "description": "Dramatic text reveal with cursor glow, chromatic shadow rays, and directional lighting on a black stage. Canvas-based shader post-processing with spectral color edges.",
+      "tags": [
+        "html-in-canvas",
+        "text",
+        "shader",
+        "cursor",
+        "chromatic"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 8,
+      "preview": {
+        "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/vfx-text-cursor.mp4",
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/vfx-text-cursor.png"
+      }
+    },
+    {
+      "name": "multiplayer-cursors",
+      "type": "component",
+      "title": "Multiplayer Cursors",
+      "description": "Labeled collaborator cursors with token-derived colors and soft glows drift from spread positions into a shared center zone, proving live multiplayer presence.",
+      "tags": [
+        "cursor",
+        "pointer",
+        "multiplayer",
+        "collaboration",
+        "presence",
+        "loop",
+        "prove"
+      ]
+    },
+    {
+      "name": "dart-cursor",
+      "type": "component",
+      "title": "Dart Cursor",
+      "description": "A bold outlined arrowhead that dives in from camera depth, flies nose-first with motion blur along its path, squashes on two clicks, and whips out of frame.",
+      "tags": [
+        "cursor",
+        "motion-primitive",
+        "pointer",
+        "click",
+        "motion-blur",
+        "depth"
+      ]
+    },
+    {
+      "name": "cursor-drag-drop",
+      "type": "component",
+      "title": "Drag and Drop Cursor",
+      "description": "A cursor grabs a task card, lifts and tilts it into its motion, carries it in lockstep to an empty column, drops it with a small settle, and the list closes the gap behind it.",
+      "tags": [
+        "cursor",
+        "motion-primitive",
+        "drag",
+        "drop",
+        "kanban",
+        "product-demo"
+      ]
+    },
+    {
+      "name": "cursor-zoom-follow",
+      "type": "component",
+      "title": "Zoom Follow Cursor",
+      "description": "Screen-recording auto-zoom: the camera pushes in toward each upcoming click, trails the cursor on a smooth spring, marks every click with a press and a ring, then eases back out to the full screen as the cursor leaves.",
+      "tags": [
+        "cursor",
+        "camera",
+        "zoom",
+        "screen-recording",
+        "click",
+        "product-demo"
+      ]
+    },
+    {
+      "name": "cursor-context-menu",
+      "type": "component",
+      "title": "Context Menu Cursor",
+      "description": "A cursor right-clicks a file, a context menu blooms from its tip, the hover highlight tracks the item under it, and the chosen action plays out: duplicate, rename, move to trash, or a confirmation toast.",
+      "tags": [
+        "cursor",
+        "motion-primitive",
+        "menu",
+        "right-click",
+        "desktop",
+        "files"
+      ]
+    },
+    {
+      "name": "cursor-annotate",
+      "type": "component",
+      "title": "Annotate Cursor",
+      "description": "A marker pen glides onto the frame and hand-draws a loose loop, an underline, or an arrow around a region, the ink laid exactly under its nib, then lifts and leaves.",
+      "tags": [
+        "cursor",
+        "motion-primitive",
+        "pen",
+        "annotation",
+        "draw-on",
+        "highlight"
+      ]
+    },
+    {
+      "name": "oversized-cursor",
+      "type": "component",
+      "title": "Oversized Cursor",
+      "description": "The look-here pointer for a video: the macOS arrow at 3.5x its normal size lands its tip on one control, clicks it on, settles just below it so the result stays in view, then exits off-screen",
+      "tags": [
+        "cursor",
+        "motion-primitive",
+        "actor",
+        "pointer",
+        "interaction"
+      ]
+    },
+    {
+      "name": "cursor-glyph-trail",
+      "type": "component",
+      "title": "Cursor Glyph Trail",
+      "description": "A tutorial cursor path: on a settings screen the arrow clicks through three steps, leaving a dotted trail spaced evenly by distance and a numbered marker at each click; each step's trail fades as the next move begins.",
+      "tags": [
+        "cursor",
+        "motion-primitive",
+        "demonstrate",
+        "trail",
+        "tutorial",
+        "steps",
+        "deterministic"
+      ]
+    },
+    {
+      "name": "spotlight-card",
+      "type": "component",
+      "title": "Spotlight Card",
+      "description": "A card with a scripted cursor spotlight and lit border.",
+      "tags": [
+        "effect"
+      ],
+      "preview": {
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/spotlight-card.png"
+      }
+    },
+    {
+      "name": "slack-notification-ad",
+      "type": "block",
+      "title": "Slack Notification Ad",
+      "description": "A portrait lock screen fills with escalating Slack video requests before HeyGen delivers the payoff",
+      "tags": [
+        "showcase",
+        "mock-ui",
+        "notification",
+        "vertical",
+        "ad-template"
+      ],
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "duration": 12,
+      "preview": {
+        "video": "https://static.heygen.ai/hyperframes/templates/promoted/254fe4bd8a3f00c1e70ac5e38a1bce25060f7590/slack-notification-ad/preview.mp4",
+        "poster": "https://static.heygen.ai/hyperframes/templates/promoted/254fe4bd8a3f00c1e70ac5e38a1bce25060f7590/slack-notification-ad/poster.jpg"
+      }
+    },
+    {
+      "name": "camera-scan-gate",
+      "type": "component",
+      "title": "Camera Scan Gate",
+      "description": "A camera and QR recognition moment with a viewfinder sweep, bracket lock, confirmation pulse, and verified next beat.",
+      "tags": [
+        "prop",
+        "ui-props",
+        "camera",
+        "qr",
+        "scan",
+        "recognition",
+        "interaction",
+        "demonstrate"
+      ]
+    },
+    {
+      "name": "scramble-reveal",
+      "type": "component",
+      "title": "Scramble Reveal",
+      "description": "A deterministic hacker-style text reveal that cycles fixed glyph rows and locks the target string from left to right.",
+      "tags": [
+        "motion-primitive",
+        "text-effects",
+        "scramble",
+        "reveal",
+        "deterministic"
+      ]
+    },
+    {
+      "name": "typewriter",
+      "type": "component",
+      "title": "Typewriter",
+      "description": "Character-by-character text reveal with a deterministic blinking cursor.",
+      "tags": [
+        "video-primitive",
+        "motion-primitive",
+        "typography"
+      ],
+      "preview": {
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/typewriter.png"
+      }
+    },
+    {
+      "name": "ticker-takeover",
+      "type": "component",
+      "title": "Ticker Takeover",
+      "description": "A mono ticker rolls through options, locks on a final word with an accent flash, and promotes it into a full-frame headline.",
+      "tags": [
+        "motion-primitive",
+        "typography",
+        "ticker",
+        "slot-machine",
+        "headline",
+        "reveal"
+      ]
+    },
+    {
+      "name": "kinetic-center-build",
+      "type": "component",
+      "title": "Kinetic Center Build",
+      "description": "Words enter from the right and push the growing phrase left until the final line locks centered.",
+      "tags": [
+        "motion-primitive",
+        "text-effects",
+        "kinetic-type",
+        "reveal",
+        "remocn-port"
+      ]
+    },
+    {
+      "name": "flowchart",
+      "type": "block",
+      "title": "Flowchart",
+      "description": "Animated decision tree with SVG connectors, sticky-note nodes, cursor interaction, and typing correction",
+      "tags": [
+        "diagram",
+        "flowchart",
+        "interactive"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 12,
+      "preview": {
+        "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/flowchart.mp4",
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/flowchart.png"
+      }
+    },
+    {
+      "name": "flowchart-vertical",
+      "type": "block",
+      "title": "Flowchart Vertical",
+      "description": "Portrait animated decision tree with SVG connectors, sticky-note nodes, cursor interaction, and typing correction",
+      "tags": [
+        "diagram",
+        "flowchart",
+        "interactive",
+        "portrait"
+      ],
+      "dimensions": {
+        "width": 1440,
+        "height": 2560
+      },
+      "duration": 12,
+      "preview": {
+        "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/flowchart-vertical.mp4",
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/flowchart-vertical.png"
+      }
+    },
+    {
+      "name": "code-snippet-apple-terminal-pro",
+      "type": "block",
+      "title": "Code Snippet - Apple Terminal Pro",
+      "description": "Apple Terminal Pro profile: black background with grey text and lime green cursor, per-character typing animation of a shell session.",
+      "tags": [
+        "code",
+        "developer",
+        "showcase",
+        "terminal",
+        "apple",
+        "apple-terminal"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 12,
+      "preview": {
+        "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/code-snippet-apple-terminal-pro.mp4",
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/code-snippet-apple-terminal-pro.png"
+      }
+    },
+    {
+      "name": "touch-indicator",
+      "type": "component",
+      "title": "Touch Indicator",
+      "description": "A translucent contact-circle gesture actor for mobile UI scenes: it touches the glass on the frame the host target responds, then lifts. Tap or swipe, picked by variable.",
+      "tags": [
+        "cursor",
+        "motion-primitive",
+        "mobile",
+        "gesture",
+        "touch",
+        "pointer"
+      ]
+    },
+    {
+      "name": "press-ripple",
+      "type": "component",
+      "title": "Press Ripple",
+      "description": "A cursor decel-arrives from off-stage, lands slightly off-center on a caller-positioned target, compresses with it in lockstep, releases with two small click rings while the label swaps to a check, then exits off-stage while the confirmed state holds.",
+      "tags": [
+        "cursor",
+        "motion-primitive",
+        "product-demo",
+        "press",
+        "ripple",
+        "payoff"
+      ]
+    }
+  ]
+}

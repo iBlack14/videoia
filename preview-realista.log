@@ -1,0 +1,16 @@
+
+> videoia-local@0.1.0 hf
+> node scripts/hf.mjs preview projects/realista --background
+
+T  hyperframes preview
+
+  Project   realista
+  Studio    http://localhost:3003/#project/realista
+  Server    http://localhost:3003
+  Desktop   Keep editing by chatting with Framey in the HyperFrames desktop app → https://hyperframes.studio/studio/download?os=windows&src=cli
+
+  Running in the background. Log: C:\Users\huanc\AppData\Local\hyperframes\previews\59cfc2d5bf2ebac1.log
+  Changes reload automatically in the studio.
+
+  Stop with: hyperframes preview "C:\Users\huanc\Downloads\videoia\projects\realista" --stop
+

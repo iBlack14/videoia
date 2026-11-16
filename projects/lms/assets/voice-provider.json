@@ -1,0 +1,6 @@
+{
+  "provider": "edge-tts",
+  "voice": "es-PE-AlexNeural",
+  "gender": "male",
+  "locale": "es-PE"
+}

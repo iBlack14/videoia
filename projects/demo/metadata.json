@@ -1,0 +1,9 @@
+{
+  "title": "El candado no garantiza una web confiable",
+  "description": "HTTPS cifra la conexión, pero una web fraudulenta también puede usarlo. Revisa el dominio y evita ingresar datos desde enlaces inesperados.",
+  "duration": 32.3,
+  "width": 1080,
+  "height": 1920,
+  "voice": true,
+  "status": "borrador-sin-publicar"
+}

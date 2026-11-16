@@ -1,0 +1,122 @@
+
+> videoia-local@0.1.0 hf
+> node scripts/hf.mjs doctor --json
+
+{
+  "ok": false,
+  "platform": "win32",
+  "arch": "x64",
+  "checks": [
+    {
+      "name": "Version",
+      "ok": true,
+      "detail": "0.9.56 (not checked yet)"
+    },
+    {
+      "name": "CLI binary",
+      "ok": true,
+      "detail": "project-local install (node_modules) · $HOME\\Downloads\\videoia\\node_modules\\hyperframes\\bin\\hyperframes.mjs"
+    },
+    {
+      "name": "Node.js",
+      "ok": true,
+      "detail": "v22.20.0 (win32 x64)"
+    },
+    {
+      "name": "CPU",
+      "ok": true,
+      "detail": "8 cores · Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz @ 1498MHz"
+    },
+    {
+      "name": "Memory",
+      "ok": true,
+      "detail": "15.8 GB total · 5.6 GB available"
+    },
+    {
+      "name": "Disk",
+      "ok": true,
+      "detail": "36.3 GB free"
+    },
+    {
+      "name": "Frames cache",
+      "ok": true,
+      "detail": "$HOME\\AppData\\Local\\Temp\\hyperframes-extract-cache-u · 36.3 GB free at $HOME\\AppData\\Local\\Temp · default"
+    },
+    {
+      "name": "Archive extractor",
+      "ok": true,
+      "detail": "Built into Windows"
+    },
+    {
+      "name": "Settings lock",
+      "ok": true,
+      "detail": "Not locked"
+    },
+    {
+      "name": "Environment",
+      "ok": true,
+      "detail": "non-TTY"
+    },
+    {
+      "name": "whisper-cpp",
+      "ok": false,
+      "detail": "Not found (optional — needed for transcription)",
+      "hint": "winget install -e --id Git.Git && winget install -e --id Kitware.CMake && winget install -e --id Microsoft.VisualStudio.2022.BuildTools --override \"--passive --add Microsoft.VisualStudio.Workload.VCTools\", then re-run in a new terminal (or set HYPERFRAMES_WHISPER_PATH to the whisper-cli.exe in whisper-bin-x64.zip from https://github.com/ggml-org/whisper.cpp/releases)"
+    },
+    {
+      "name": "TTS (Kokoro)",
+      "ok": false,
+      "detail": "Not installed (optional — local voice fallback)",
+      "hint": "pip install kokoro-onnx soundfile"
+    },
+    {
+      "name": "BGM (MusicGen)",
+      "ok": false,
+      "detail": "Not installed (optional — local music fallback)",
+      "hint": "pip install transformers torch soundfile numpy"
+    },
+    {
+      "name": "onnxruntime-node",
+      "ok": true,
+      "detail": "Not installed (installs on first use)"
+    },
+    {
+      "name": "@google/genai",
+      "ok": true,
+      "detail": "Not installed (installs on first use)"
+    },
+    {
+      "name": "FFmpeg",
+      "ok": true,
+      "detail": "ffmpeg 9.0.2-essentials_build-www.gyan.dev at $HOME\\AppData\\Roaming\\Python\\Python314\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v9.0.2.exe; loudness numbers are only comparable on 8.0.1"
+    },
+    {
+      "name": "FFprobe",
+      "ok": true,
+      "detail": "ffprobe 6.0-essentials_build-www.gyan.dev at $HOME\\Downloads\\videoia\\tools\\ffprobe.exe"
+    },
+    {
+      "name": "Chrome",
+      "ok": true,
+      "detail": "env: C:/Program Files/Google/Chrome/Application/chrome.exe"
+    },
+    {
+      "name": "Docker",
+      "ok": false,
+      "detail": "Not found",
+      "hint": "https://docs.docker.com/get-docker/"
+    },
+    {
+      "name": "Docker running",
+      "ok": false,
+      "detail": "Not running",
+      "hint": "Start Docker Desktop or run: sudo systemctl start docker"
+    }
+  ],
+  "_meta": {
+    "version": "0.9.56",
+    "updateAvailable": false,
+    "skillsOutdated": 2,
+    "skillsMissing": 2
+  }
+}

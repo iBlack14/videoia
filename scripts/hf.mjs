@@ -1,0 +1,14 @@
+import {spawnSync} from 'node:child_process';
+import {existsSync} from 'node:fs';
+import path from 'node:path';
+const py=spawnSync('python',['-c',"import pathlib,playwright; print(pathlib.Path(playwright.__file__).parent/'driver'/'node.exe')"],{encoding:'utf8'});
+const runtime=process.env.VIDEOIA_NODE || py.stdout?.trim();
+if(!runtime||!existsSync(runtime)) throw Error('Configura VIDEOIA_NODE con la ruta a Node 22 o superior.');
+const env={...process.env,DO_NOT_TRACK:'1',PRODUCER_HEADLESS_SHELL_PATH:process.env.PRODUCER_HEADLESS_SHELL_PATH||'C:/Program Files/Google/Chrome/Application/chrome.exe'};
+const videoBin=path.join(process.env.LOCALAPPDATA||'', 'Programs','VideoIA','bin');
+if(existsSync(videoBin)) env.Path=[videoBin,env.Path||env.PATH||''].join(path.delimiter);
+const ff=spawnSync('python',['-c','import imageio_ffmpeg; print(imageio_ffmpeg.get_ffmpeg_exe())'],{encoding:'utf8'});
+if(ff.status===0) env.HYPERFRAMES_FFMPEG_PATH=ff.stdout.trim();
+if(existsSync('tools/ffprobe.exe'))env.HYPERFRAMES_FFPROBE_PATH=path.resolve('tools/ffprobe.exe');
+const result=spawnSync(runtime,['node_modules/hyperframes/bin/hyperframes.mjs',...process.argv.slice(2)],{stdio:'inherit',env});
+process.exit(result.status??1);

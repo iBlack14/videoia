@@ -1,0 +1,12 @@
+{
+  "owner": "OdiseaCloud, según la identificación del usuario",
+  "assets": [
+    {"file":"assets/mascota-guia.png","source":"C:/Users/huanc/Downloads/odisea web nueva/assets/images/robot-asistente.png","treatment":"Original, sin edición de píxeles; transformación 2D en GSAP"},
+    {"file":"assets/mascota-saludo.png","source":"C:/Users/huanc/Downloads/odisea web nueva/assets/images/mascota-derecha.png","treatment":"Original; cambio de pose por mezcla de opacidad"},
+    {"file":"assets/web-inicio.png","source":"https://odiseacloud.com/","treatment":"Captura de navegador Chrome, viewport 760x1050"},
+    {"file":"assets/web-servicios.png","source":"https://odiseacloud.com/","treatment":"Captura del sitio tras desplazar 850 px"},
+    {"file":"assets/voice1.wav ... voice4.wav","source":"Voz local Microsoft Sabina, proyecto anterior","treatment":"Sin cambios"}
+  ],
+  "captured_date":"2026-11-16",
+  "notes":"El navegador y sus paneles son una recreación educativa sobre capturas reales. La mascota se anima mediante poses 2D; no hay rig 3D ni sincronización labial. Sin servicios de generación de pago."
+}

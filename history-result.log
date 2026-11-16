@@ -1,0 +1,14 @@
+
+> videoia-local@0.1.0 hf
+> node scripts/hf.mjs history --since mine --who codex
+
+
+✗  No composition found in C:\Users\huanc\Downloads\videoia
+
+   No index.html file found.
+   Run npx hyperframes init to create a new composition.
+
+
+  2 HyperFrames skills out of date or missing.
+  For the user: npx hyperframes skills update refreshes them.
+

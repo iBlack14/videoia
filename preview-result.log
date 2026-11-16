@@ -1,0 +1,16 @@
+
+> videoia-local@0.1.0 hf
+> node scripts/hf.mjs preview projects/demo --background
+
+T  hyperframes preview
+
+  Project   demo
+  Studio    http://localhost:3002/#project/demo
+  Server    http://localhost:3002
+  Desktop   Keep editing by chatting with Framey in the HyperFrames desktop app → https://hyperframes.studio/studio/download?os=windows&src=cli
+
+  Running in the background. Log: C:\Users\huanc\AppData\Local\hyperframes\previews\392b7c4837c99c99.log
+  Changes reload automatically in the studio.
+
+  Stop with: hyperframes preview "C:\Users\huanc\Downloads\videoia\projects\demo" --stop
+
